@@ -276,19 +276,58 @@ p {
   display: inline-block;
   width: 25%;
   vertical-align: text-top;
+  height:256px;
 }
-.affilations ul li img{
-  height: 256px;
+.affilations ul li img{ 
   width: 256px;
+}
+.affilations ul li h2{
+  color: #1CAED3;
+  font-size: 1.5em;
+  font-weight: 800;
+}
+.test {
+  font-color:#1CAED3;
+  font-size: 1.5em;
+  font-weight: 400;
 }
 .team ul li{
   display: inline-block;
   width: 25%;
   vertical-align: text-top;
 }
+.team ul li h2{
+  font-size: 2em;
+  font-weight: 800; 
+}
 .team ul li h3{
   font-size: 1.5em;
   font-weight: 400;
+}
+.team ul li h4{
+  font-size: 0.8em;
+  font-color:dimgrey;
+  font-weight: 100;
+}
+.team ul li img{
+  height: 256px;
+  width: 256px;
+  border-radius: 100%;
+}
+
+.page_two{
+  background: #f2f2f2;
+}
+
+.page_four{
+  background: #f2f2f2;
+}
+
+.blue{
+  background: #1CAED3;
+}
+footer h5{
+  color:#fff;
 }
 /*
 
