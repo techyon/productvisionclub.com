@@ -255,6 +255,8 @@ p {
 .page_title{
   font-weight: 200;
   font-size: 2em;
+  text-transform: uppercase;
+  color: #1CAED3;
 }
 .about ul li{
   display: inline-block;
@@ -265,7 +267,32 @@ p {
   font-size: 1.5em;
   font-weight: 400;
 }
+.about ul li p{
+  font-size: 0.5em;
+  font-weight: 100;
+}
+
+.affilations ul li{
+  display: inline-block;
+  width: 25%;
+  vertical-align: text-top;
+}
+.affilations ul li img{
+  height: 256px;
+  width: 256px;
+}
+.team ul li{
+  display: inline-block;
+  width: 25%;
+  vertical-align: text-top;
+}
+.team ul li h3{
+  font-size: 1.5em;
+  font-weight: 400;
+}
 /*
+
+
 .section {
   padding: 50px 20px;
   margin: 0px auto;
