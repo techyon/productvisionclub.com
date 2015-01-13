@@ -398,6 +398,12 @@ footer h5{
 
 
 @media (max-width: 600px) {
+  .intro #logo {
+    width: 150px;
+    display: block;
+    margin: 0px auto;
+    padding-top: auto;
+  }
   .intro h1 {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
@@ -449,12 +455,19 @@ footer h5{
     border: 0.1em solid white;
     border-radius: 8%;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.25em;
+    font-size: 0.75em;
     font-weight: 800;
     text-transform: uppercase;
     padding: 1% 1%;
     margin: auto;
     width: 80%;
     text-align: center;
+  }
+  footer h5{
+    padding-top: -1em;
+    font-weight: 100;
+    font-size: 0.25em;
+    color:#fff;
+    float: none;
   }
 }
