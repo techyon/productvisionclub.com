@@ -252,8 +252,15 @@ p {
   color: black;
   font-weight: 200;
 }
+.logos{
+ 
+}
+.logos:hover{
+  margin-bottom: -4px;
+  margin-top: 4px;
+}
 .page_title{
-  font-weight: 200;
+  font-weight: 800;
   font-size: 2em;
   text-transform: uppercase;
   color: #1CAED3;
@@ -318,6 +325,19 @@ p {
 .page_two{
   background: #f2f2f2;
 }
+.event img{
+  display: inline-block;
+}
+.event p{
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
+}
+.event h2{
+  font-size: 2em;
+  font-weight: 800; 
+}
 
 .page_four{
   background: #f2f2f2;
@@ -326,111 +346,45 @@ p {
 .blue{
   background: #1CAED3;
 }
+.page_one{
+  padding: 50 20;
+}
+.page_two{
+  padding: 50 20;
+}
+.page_three{
+  padding: 50 20;
+}
+.page_four{
+  padding: 50 20;
+}
+footer{
+  padding: 50 20;
+}
 footer h5{
+  padding-top: -1em;
+  font-weight: 100;
+  font-size: 0.75em;
   color:#fff;
+  float: right;
 }
-/*
-
-
-.section {
-  padding: 50px 20px;
-  margin: 0px auto;
-  text-align: center;
-}
-.section h2 {
-  font-weight: 600;
-  text-align: center;
-  font-size: 17px;
-  text-transform: uppercase;
-  border: 2px solid #d1d1d1;
-  border-radius: 5px;
-  padding: 20px 55px;
-  display: inline-block;
-  margin: 0 auto;
-  color: #5AC4DF;
-  letter-spacing: 1px;
-  margin-bottom: 20px;
-  background: white;
-}
-.section h4 {
-  color: white;
-  font-size: 12px;
-  margin-bottom: -30px;
-  margin-top: 20px;
-}
-#projects {
-  color: #686868;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-}
-#htn_logo {
-  width: 130px;
-  margin: 5px 5px 30px 5px;
-  text-align: center;
-}
-#htn {
-  color: #238dbe;
-  font-weight: 700;
-  font-size: 22px;
-  width: 280px;
-  border: 2px solid transparent;
-  -webkit-transition: all 0.25s ease 0s;
-  -moz-transition: all 0.25s ease 0s;
-  -o-transition: all 0.25s ease 0s;
-  -ms-transition: all 0.25s ease 0s;
-  transition: all 0.25s ease 0s;
-  text-align: center;
-  margin: 0 auto;
-  margin-bottom: 5px;
-}
-#htn:hover {
-  padding: 14px 2px;
-  margin-bottom: 10px;
-  border-radius: 3px;
-  border: 2px solid #B1B1B1;
-}
-.bg_gray#events {
-  background: #fcfbf8;
-  border-bottom: 1px solid #DFDFDF;
-}
-.bg_gray#events h2 {
-  color: white;
-  background: #5AC4DF;
-  border-color: #5AC4DF;
-}
-.bg_gray#events h2 a {
-  color: inherit;
-}
-.bg_gray#events h2:hover {
-  background: #49b3ce;
-}
-.bg_gray#events a {
-  font-weight: 600;
-  color: #3CBBDB;
-}
-.bg_blue {
-  background: #5AC4DF;
-}
-.bg_blue a {
-  color: white;
-}
-.bg_blue h2 {
+.blue h2 {
   background: transparent;
   color: white;
-  border: 3px solid white;
-  padding: 18px 55px;
+  border: 0.5em solid white;
+  border-radius: 8%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25em;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 1% 1%;
+  margin: 1% 40%;
+  width: 18%;
+  text-align: center;
 }
+#contactus{
 
-#getinvolved:hover h2 {
-  background: #5AC4DF;
-  -webkit-transition: all 0.25s ease 0s;
-  -moz-transition: all 0.25s ease 0s;
-  -o-transition: all 0.25s ease 0s;
-  -ms-transition: all 0.25s ease 0s;
-  transition: all 0.25s ease 0s;
-  color: white;
 }
-
 #contactus:hover h2 {
   background: white;
   -webkit-transition: all 0.25s ease 0s;
@@ -438,14 +392,69 @@ footer h5{
   -o-transition: all 0.25s ease 0s;
   -ms-transition: all 0.25s ease 0s;
   transition: all 0.25s ease 0s;
-  color: #5AC4DF;
+  color: #1CAED3;
 }
-@media (max-width: 400px) {
-  .splash {
-    padding: 90px 20px;
+
+
+
+@media (max-width: 600px) {
+  .intro h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3.75em;
+    color: #1CAED3;
+    letter-spacing: 4px;
   }
-  .splash img#logo {
-    padding-top: 0px;
+  .intro p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2em;
+    color: black;
+    font-weight: 200;
+  }
+  .about ul li{
+    float: none;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+  }
+  .event p{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+  }
+  .affilations ul li h2{
+    color: #1CAED3;
+    font-size: 1.5em;
+    font-weight: 800;
+    padding-top: 4%;
+  }
+  .three_column ul li{
+    float: none;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+  }
+  .blue h2 {
+    background: transparent;
+    color: white;
+    border: 0.1em solid white;
+    border-radius: 8%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25em;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 1% 1%;
+    margin: auto;
+    width: 80%;
+    text-align: center;
   }
 }
-.lowercase{text-transform:lowercase;}*/
