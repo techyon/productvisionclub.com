@@ -398,11 +398,13 @@ footer h5{
 
 
 @media (max-width: 600px) {
+  .intro{
+    padding-bottom: 0px;
+  }
   .intro #logo {
-    width: 150px;
     display: block;
     margin: 0px auto;
-    padding-top: auto;
+    padding-top: 0px;
   }
   .intro h1 {
     font-family: 'Open Sans', sans-serif;
@@ -452,7 +454,7 @@ footer h5{
   .blue h2 {
     background: transparent;
     color: white;
-    border: 0.1em solid white;
+    border: 0.25em solid white;
     border-radius: 8%;
     font-family: 'Open Sans', sans-serif;
     font-size: 0.75em;
@@ -464,9 +466,9 @@ footer h5{
     text-align: center;
   }
   footer h5{
-    padding-top: -1em;
+    padding-top: 1em;
     font-weight: 100;
-    font-size: 0.25em;
+    font-size: 0.4em;
     color:#fff;
     float: none;
   }
