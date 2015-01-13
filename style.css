@@ -374,7 +374,7 @@ footer h5{
   border: 0.5em solid white;
   border-radius: 8%;
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.25em;
+  font-size: 1.75em;
   font-weight: 800;
   text-transform: uppercase;
   padding: 1% 1%;
@@ -394,7 +394,27 @@ footer h5{
   transition: all 0.25s ease 0s;
   color: #1CAED3;
 }
-
+#attend {
+  color: #1CAED3;
+  font-weight: 700;
+  font-size: 22px;
+  width: 280px;
+  border: 2px solid transparent;
+  -webkit-transition: all 0.25s ease 0s;
+  -moz-transition: all 0.25s ease 0s;
+  -o-transition: all 0.25s ease 0s;
+  -ms-transition: all 0.25s ease 0s;
+  transition: all 0.25s ease 0s;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+#attend:hover {
+  padding: 14px 2px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 2px solid #1CAED3;
+}
 
 
 @media (max-width: 600px) {
@@ -462,7 +482,7 @@ footer h5{
     text-transform: uppercase;
     padding: 1% 1%;
     margin: auto;
-    width: 80%;
+    width: 40%;
     text-align: center;
   }
   footer h5{
