@@ -329,9 +329,9 @@ p {
   display: inline-block;
 }
 .event p{
-  width: 40%;
-  margin-left: 30%;
-  margin-right: 30%;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
   text-align: center;
 }
 .event h2{
@@ -372,14 +372,13 @@ footer h5{
   background: transparent;
   color: white;
   border: 0.5em solid white;
-  border-radius: 8%;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.75em;
   font-weight: 800;
   text-transform: uppercase;
   padding: 1% 1%;
-  margin: 1% 40%;
-  width: 18%;
+  margin: auto;
+  width: 20%;
   text-align: center;
 }
 #contactus{
@@ -397,7 +396,7 @@ footer h5{
 #attend {
   color: #1CAED3;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 2em;
   width: 280px;
   border: 2px solid transparent;
   -webkit-transition: all 0.25s ease 0s;
@@ -409,7 +408,7 @@ footer h5{
   margin: 0 auto;
   margin-bottom: 5px;
 }
-#attend:hover {
+#attend:hover{
   padding: 14px 2px;
   margin-bottom: 10px;
   border-radius: 3px;
@@ -475,14 +474,13 @@ footer h5{
     background: transparent;
     color: white;
     border: 0.25em solid white;
-    border-radius: 8%;
     font-family: 'Open Sans', sans-serif;
-    font-size: 0.75em;
+    font-size: 1.75em;
     font-weight: 800;
     text-transform: uppercase;
     padding: 1% 1%;
     margin: auto;
-    width: 40%;
+    width: 70%;
     text-align: center;
   }
   footer h5{
@@ -491,5 +489,50 @@ footer h5{
     font-size: 0.4em;
     color:#fff;
     float: none;
+  }
+}
+
+@media (max-width: 1110px) and (min-width:800px) {
+  .three_column ul li{
+    float: none;
+    width: 35%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+  }
+  .blue h2 {
+    background: transparent;
+    color: white;
+    border: 0.25em solid white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.75em;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 1% 1%;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+  }
+}
+@media (max-width: 800px) and (min-width:600px) {
+  .three_column ul li{
+    float: none;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+  }
+  .blue h2 {
+    background: transparent;
+    color: white;
+    border: 0.25em solid white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.75em;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 1% 1%;
+    margin: auto;
+    width: 70%;
+    text-align: center;
   }
 }
