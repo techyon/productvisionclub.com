@@ -4,7 +4,6 @@
   font-style: normal;
   font-weight: 400;
 }
-*,
 html,
 body,
 div,
@@ -77,7 +76,6 @@ footer,
 header,
 hgroup,
 menu,
-nav,
 output,
 ruby,
 section,
@@ -240,7 +238,7 @@ p {
   text-transform: uppercase;
   margin-top: 25px;
   font-size: 3.75em;
-  color: #1CAED3;
+  color: #6cc9c9;
   letter-spacing: 4px;
 }
 .intro p {
@@ -263,7 +261,7 @@ p {
   font-weight: 800;
   font-size: 2em;
   text-transform: uppercase;
-  color: #1CAED3;
+  color: #6cc9c9;
 }
 .about ul li{
   display: inline-block;
@@ -289,18 +287,18 @@ p {
   width: 256px;
 }
 .affilations ul li h2{
-  color: #1CAED3;
+  color: #6cc9c9;
   font-size: 1.5em;
   font-weight: 800;
 }
 .test {
-  font-color:#1CAED3;
+  font-color:#6cc9c9;
   font-size: 1.5em;
   font-weight: 400;
 }
 .team ul li{
   display: inline-block;
-  width: 25%;
+  width: 20%;
   vertical-align: text-top;
 }
 .team ul li h2{
@@ -344,7 +342,7 @@ p {
 }
 
 .blue{
-  background: #1CAED3;
+  background: #6cc9c9;
 }
 .page_one{
   padding: 50 20;
@@ -391,10 +389,11 @@ footer h5{
   -o-transition: all 0.25s ease 0s;
   -ms-transition: all 0.25s ease 0s;
   transition: all 0.25s ease 0s;
-  color: #1CAED3;
+  text-decoration: none;
+  color: #6cc9c9;
 }
 #attend {
-  color: #1CAED3;
+  color: #6cc9c9;
   font-weight: 700;
   font-size: 2em;
   width: 280px;
@@ -412,10 +411,20 @@ footer h5{
   padding: 14px 2px;
   margin-bottom: 10px;
   border-radius: 3px;
-  border: 2px solid #1CAED3;
+  border: 2px solid #6cc9c9;
 }
-
-
+a{ 
+  text-decoration: none !important;
+}
+.navbar *{
+  background-color:#6cc9c9;
+}
+.navbar-default *{
+  background-color:#6cc9c9;
+}
+.navbar-fixed-top *{
+  background-color:#6cc9c9;
+}
 @media (max-width: 600px) {
   .intro{
     padding-bottom: 0px;
@@ -432,7 +441,7 @@ footer h5{
     text-transform: uppercase;
     text-align: center;
     font-size: 3.75em;
-    color: #1CAED3;
+    color: #6cc9c9;
     letter-spacing: 4px;
   }
   .intro p {
@@ -458,7 +467,7 @@ footer h5{
     padding: 5px;
   }
   .affilations ul li h2{
-    color: #1CAED3;
+    color: #6cc9c9;
     font-size: 1.5em;
     font-weight: 800;
     padding-top: 4%;
