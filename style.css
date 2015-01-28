@@ -265,7 +265,7 @@ p {
 }
 .about ul li{
   display: inline-block;
-  width: 25%;
+  width: 30%;
   vertical-align: text-top;
 }
 .about ul li h3{
@@ -355,6 +355,7 @@ p {
 }
 .page_four{
   padding: 50 20;
+  background: #f2f2f2;
 }
 footer{
   padding: 50 20;
