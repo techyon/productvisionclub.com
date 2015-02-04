@@ -581,7 +581,7 @@ a{
     padding-bottom: -50px;
   }
 }
-@media (min-width:599px) {
+@media (max-width:600px) {
 
   #glasses{
     padding-top: 35%;
