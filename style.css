@@ -665,7 +665,7 @@ a{
     padding-bottom: -50px;
   }
 }
-@media (max-width:600px) and (min-width: 300px) {
+@media (max-width:600px) and (min-width: 200px) {
   .navbar-default .navbar-nav > li > a {
     font-size: 1.25em;
     
@@ -673,5 +673,8 @@ a{
   #glasses{
     padding-top: 45%;
     padding-bottom: -50px;
+  }
+  #slogan{
+    font-size: 1em;
   }
 }
