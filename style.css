@@ -441,7 +441,7 @@ a{
   background-color:#DBDAD9;
 }
 .navbar-default *{
-  background-color:#DBDAD9;
+  background-color:#DBDAD9; 
 }
 .navbar-fixed-top *{
   background-color:#DBDAD9;
@@ -660,33 +660,33 @@ a{
     width: 70%;
     text-align: center;
   }
-  /*#glasses{
+  #glasses{
     padding-top: 0%;
     padding-bottom: -50px;
-  }*/
+  }
 }
 @media (max-width:600px) and (min-width: 100px) {
   .navbar-default .navbar-nav > li > a {
     font-size: 0.8em;
     
 }
- /* #glasses{
+  #glasses{
     padding-top: 65%;
     padding-bottom: -50px;
-  }*/
+  }
   #slogan{
     font-size: 1em;
   }
 }
 
-#glasses {
+/*#glasses {
     width: 70%; 
     height: 70%; 
-   /* position: absolute; */
+    position: absolute; 
     left: 200px; 
     top: 50px; 
     z-index: 0;
-}
+}*/
 
 .background {
     width:100%;
