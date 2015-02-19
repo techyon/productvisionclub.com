@@ -219,7 +219,7 @@ p {
 }
 .intro {
   /*background: #000000 url('img/bg.png') center center no-repeat;*/
-  background-color: #6CC9C9;
+  background-color: #DBDAD9;
   background-size: cover;
   text-align: center;
   margin: 0 auto;
@@ -438,13 +438,13 @@ a{
   text-decoration: none !important;
 }
 .navbar *{
-  background-color:#6cc9c9;
+  background-color:#DBDAD9;
 }
 .navbar-default *{
-  background-color:#6cc9c9;
+  background-color:#DBDAD9; 
 }
 .navbar-fixed-top *{
-  background-color:#6cc9c9;
+  background-color:#DBDAD9;
 }
 @media (max-width: 600px) {
   .intro{
@@ -527,7 +527,7 @@ a{
 /*change some boostrap css*/
 /* navbar */
 .navbar-default {
-    background-color: #6CC9C9; 
+    background-color: #DBDAD9; 
     border-color: #E7E7E7;
     border:0px;
 }
