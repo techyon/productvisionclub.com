@@ -624,8 +624,6 @@ a{
 #explore:hover{
   padding: 14px 2px;
   margin-bottom: 10px;
-  border-radius: 3px;
-  border: 2px solid #6cc9c9;
   color: black;
 }
 
@@ -713,6 +711,18 @@ a{
   #glasses{
     /*padding-top: 0%;
     padding-bottom: -50px;*/
+  }
+  #slogan{
+    top: 50px;
+    font-size: 1.25em;
+  }
+  #explore{
+    font-size: 1em;
+    top: 275px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: black;
   }
 }
 @media (max-width:600px) and (min-width: 100px) {
