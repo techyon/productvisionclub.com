@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/*
+ * Bootstrap Image Gallery Demo CSS 3.0.0
+ * https://github.com/blueimp/Bootstrap-Image-Gallery
+ *
+ * Copyright 2013, Sebastian Tschan
+ * https://blueimp.net
+ *
+ * Licensed under the MIT license:
+ * http://www.opensource.org/licenses/MIT
+ */
+
+body {
+    padding-top: 60px;
+    color: #fff;
+    /*background-color: #DBDAD9;*/
+}
+h1 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+a {
+    color: orange;
+}
+a:hover {
+    color: lightblue;
+    text-decoration: none;
+}
+.modal {
+	overflow: auto;
+	color: #333;
+}
+.btn-primary {
+	color: #fff;
+	background-color: #6cc9c9;
+	border-color: #6cc9c9;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+	color: #fff;
+	background-color: #6cc9c9;
+	border-color: #6cc9c9;
+}
+
+.btn-default{
+	background-color: #DBDAD9;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+	color: #333;
+	background-color: #ebebeb;
+	border-color: #adadad;
+}
+#links a img{
+	/*max-width: 300px;*/
+	width: 22%;
+	margin-left: 1.5%;
+}
+
+.header_title{
+	font-size: 2.5em;
+  	font-weight: 400;
+  	text-transform: uppercase;
+  	text-align: center;
+}
+
+#pastlogos img{
+	max-width: 40%;
+	width: 30%;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 2%;
+	display: inline-block;
+}
+
+#blueimp-gallery{
+
+}
+#gallery{
+	padding-top: 80px;
+}
+
+@media (max-width: 800px){
+	.header_title{
+		font-size: 1.5em;
+	}
+	#pastlogos img{
+		width: 40%;
+	}
+}
+
+@media (max-width: 650px){
+	#gallery{
+		padding-top: 200px;
+	}
+
+	#links a img{
+		max-width: 100%;
+		width: 80%;
+		margin-left: 10%;
+	}
+	#pastlogos{
+		margin-left: 15%;
+		margin-right: 10%;
+	}
+}

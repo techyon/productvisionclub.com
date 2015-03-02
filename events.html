@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<!--[if IE]>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<![endif]-->
+<meta charset="utf-8">
+<title>Gallery</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+<link rel="stylesheet" href="css/bootstrap-image-gallery.css">
+<link rel="stylesheet" href="css/demo.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stlyesheet" href="gallery.css">
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top navigation">
+        <ul class="nav navbar-nav nav-tabs" id="nav">
+            <li><a href="#about">About</a></li>
+            <li><a href="#event">Event</a></li>
+    <!--                <li><a href="#affilations">Affilations</a></li> -->
+            <li><a>Gallery</a></li>
+            <li><a href="#team">Team</a></li>
+          </ul>
+          <h1 id="title">Product Vision Club</h1>
+    </nav>
+
+<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery">
+    <!-- The container for the modal slides -->
+    <div class="slides"></div>
+    <!-- Controls for the borderless lightbox -->
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+    <!-- The modal dialog, which will be used to wrap the lightbox content -->
+    <div class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body next"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default pull-left prev">
+                        <i class="glyphicon glyphicon-chevron-left"></i>
+                        Previous
+                    </button>
+                    <button type="button" class="btn btn-primary next">
+                        Next
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="gallery">
+    <div id="links">
+        <a href="gallery/1.jpg" title="Wellframe: Founders and the team" data-gallery>
+            <img src="gallery/1.jpg" alt="Wellframe: Founders and the team">
+        </a>
+        <a href="gallery/2.jpg" title="Wellframe and the PVC team" data-gallery>
+            <img src="gallery/2.jpg" alt="Wellframe and the PVC team">
+        </a>
+        <a href="gallery/3.jpg" title="Product Manager Interview Practice Sessions" data-gallery>
+            <img src="gallery/3.jpg" alt="Product Manager Interview Practice Sessions">
+        </a>
+        <a href="gallery/4.jpg" title="Product Manager Interview Practice Sessions" data-gallery>
+            <img src="gallery/4.jpg" alt="Product Manager Interview Practice Sessions">
+        </a>
+        <a href="gallery/6.jpg" title="Product Vison Club Photo" data-gallery>
+            <img src="gallery/6.jpg" alt="Product Vison Club Photo">
+        </a>
+        <a href="gallery/7.jpg" title="Returning Waterloo full time PMs" data-gallery>
+            <img src="gallery/7.jpg" alt="Returning Waterloo full time PMs">
+        </a>
+        <a href="gallery/8.jpg" title="FireFox: Mozilla lead, Peter Dolanjski" data-gallery>
+            <img src="gallery/8.jpg" alt="FireFox: Mozilla lead, Peter Dolanjski">
+        </a>
+        <a href="gallery/9.jpg" title="FireFox: Mozilla lead, Peter Dolanjski" data-gallery>
+            <img src="gallery/9.jpg" alt="FireFox: Mozilla lead, Peter Dolanjski">
+        </a>
+        <a href="gallery/12.jpg" title="Square: Sr.Engineer, Alan" data-gallery>
+            <img src="gallery/12.jpg" alt="Square: Sr.Engineer, Alan">
+        </a>
+        <a href="gallery/13.jpg" title="Quora: Product Manager, Zayad Mir" data-gallery>
+            <img src="gallery/13.jpg" alt="Quora: Product Manager, Zayad Mir">
+        </a>
+    </div>
+</div>
+<!-- <h1 id="clickme">CLICK ME</h1> -->
+<h1 class="header_title">Past Speakers From:</h1>
+<div id="pastlogos">
+    <img src="gallery/wellframe.png">
+    <!-- <img src="gallery/palantir.png"> -->
+    <img src="gallery/microsoft.jpg">
+    <!-- <img src="gallery/groupon.png"> -->
+    <img src="gallery/magnet.jpg">
+    <img src="gallery/square.jpg">
+    <img src="gallery/quora.png">
+    <img src="gallery/clearpath.png">
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<!-- Bootstrap JS is not required, but included for the responsive demo navigation and button states -->
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+<script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+<script src="js/bootstrap-image-gallery.js"></script>
+<script src="js/demo.js"></script>
+<footer class="blue page">
+    <a href="https://www.facebook.com/productvisionclub"><img class="logos" src="img/facebook2.png"></a>
+    <a href="mailto:info@productvisionclub.com"><img class="logos" src="img/email2.png"></a>
+    <a><img class="logos" src="img/calendar2.png"></a>
+    <a id="contactus" href="https://docs.google.com/forms/d/1v7nbFnMEvcXwMG7P8iHQe9g23wp54PCSVKhSqVgYWO8/viewform">
+        <h2>Get Involved</h2>
+    </a>
+    <br>
+    <img src="img/university-of-waterloo-logo.png">
+    <h5>Copyright 2015 © UW Product Vision. All Rights Reserved.</h5>
+</footer>
+</body>
+</html
