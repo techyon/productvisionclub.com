@@ -720,7 +720,7 @@ a{
     font-size: 0.8em;  
   }
   #glasses{
-    padding-top: 35%;
+    padding-top: 20%;
     padding-bottom: -50px;
     max-height: 50%;
     width: 100%;
@@ -744,5 +744,11 @@ a{
   }
   .blue h2 {
     font-size: 1.15em;
+  }
+  .wrapper{
+
+  }
+  .team ul li h2 {
+    line-height: 75%;
   }
 }
