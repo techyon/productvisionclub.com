@@ -722,8 +722,11 @@ a{
   .navbar-default .navbar-nav > li > a {
     font-size: 0.8em;  
   }
+  .page_title{
+    font-size: 1.5em;
+  }
   #glasses{
-    padding-top: 20%;
+    padding-top: 18%;
     padding-bottom: -50px;
     max-height: 50%;
     width: 100%;
