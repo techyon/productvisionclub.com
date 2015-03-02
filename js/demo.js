@@ -11,10 +11,14 @@
 
 /*jslint unparam: true */
 /*global blueimp, $ */
+window.onload = function(){
+   
+       blueimp.Gallery($('#links a'), $('#blueimp-gallery').data());
+   
+};
 
 $(function () {
     'use strict';
-
     // Load demo images from flickr:
     // $.ajax({
     //     url: 'https://api.flickr.com/services/rest/',
