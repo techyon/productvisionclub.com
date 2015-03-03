@@ -102,3 +102,11 @@ a:hover {
 		margin-right: 10%;
 	}
 }
+
+.navbar-default {
+    background-color: #DBDAD9;
+    border:0px;
+}
+.navbar-fixed-top * {
+  background-color: #DBDAD9;
+}

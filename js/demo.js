@@ -16,11 +16,7 @@
 //        blueimp.Gallery($('#links a'), $('#blueimp-gallery').data());
    
 // };
-$( window ).load(function() {
-    $( ".navbar-default" ).css( "background-color", "#DBDAD9" );
-    $( ".navbar-fixed-top *" ).css( "background-color", "#DBDAD9" );
-  
-});
+
 $(function () {
     'use strict';
     // Load demo images from flickr:
