@@ -349,7 +349,6 @@ p {
   font-weight: 800;
 }
 
-
 .blue{
   background: #6cc9c9;
 }
@@ -369,14 +368,15 @@ p {
 #title{
   float: left;
   font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 2em;
-    color: #F58751;
-    letter-spacing: 4px;
-    padding: 10px;
+  font-style: normal;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2em;
+  color: #F58751;
+  letter-spacing: 4px;
+  padding: 10px;
+  background-color: transparent;
 }
 footer{
   padding: 50 20;
@@ -450,96 +450,36 @@ a{
 #slogan{
   margin: 0;
 }
-@media (max-width: 600px) {
-  .intro{
-    padding-bottom: 0px;
-  }
-  .intro #logo {
-    display: block;
-    margin: 0px auto;
-    padding-top: 0px;
-  }
-  .intro h1 {
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 3.75em;
-    color: #DBDAD9;
-    letter-spacing: 4px;
-  }
-  .intro p {
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 50px;
-    font-size: 2em;
-    color: black;
-    font-weight: 200;
-  }
-  .about ul li{
-    float: none;
-    width: 90%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 5px;
-  }
-  .event p{
-    width: 90%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 5px;
-  }
-  .affilations ul li h2{
-    color: #DBDAD9;
-    font-size: 1.5em;
-    font-weight: 800;
-    padding-top: 4%;
-  }
-  .three_column ul li{
-    float: none;
-    width: 90%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 5px;
-  }
-  .blue h2 {
-    background: transparent;
-    color: white;
-    border: 0.25em solid white;
-    font-size: 1.75em;
-    font-weight: 800;
-    text-transform: uppercase;
-    padding: 1% 1%;
-    margin: auto;
-    width: 70%;
-    text-align: center;
-  }
-  footer h5{
-    padding-top: 1em;
-    font-weight: 100;
-    font-size: 0.6em;
-    color:#fff;
-    float: right;
-  }
+#uwaterloologo{
+  float: right;
 }
 
-
-/*change some boostrap css*/
-/* navbar */
-.navbar-default {
-    background-color: #DBDAD9; 
-    border-color: #E7E7E7;
-    border:0px;
-}
 /* title */
 .navbar-default .navbar-brand {
     color: #777;
 }
+/*
+  NAVAGIATION
+*/
 
 #nav {
   float: right;
+}
+.navbar-default {
+    background-color: transparent;
+    border:0px;
+}
+.nav-tabs{
+    border-bottom: 0;  
+}
+.navbar-fixed-top * {
+  background-color: transparent;
+}
+.nav-tabs>li>a {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 0px solid transparent;
+  border-radius: 4px 4px 0 0;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
@@ -553,7 +493,9 @@ a{
     font-family: 'Open Sans', sans-serif;
     float: right;
     margin-top: 10px;
-
+}
+.nav-tabs>li {
+  margin-bottom: 0;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -647,15 +589,84 @@ a{
   height:70%;
 }
 
-@media (max-width: 767px) {
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-        color: #777;
-    }
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-        color: #333;
-    }
+/*
+  MEDIA QUERIES
+*/
+@media (max-width: 600px) {
+  .intro{
+    padding-bottom: 0px;
+  }
+  .intro #logo {
+    display: block;
+    margin: 0px auto;
+    padding-top: 0px;
+  }
+  .intro h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3.75em;
+    color: #DBDAD9;
+    letter-spacing: 4px;
+  }
+  .intro p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2em;
+    color: black;
+    font-weight: 200;
+  }
+  .about ul li{
+    float: none;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+  }
+  .event p{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+  }
+  .affilations ul li h2{
+    color: #DBDAD9;
+    font-size: 1.5em;
+    font-weight: 800;
+    padding-top: 4%;
+  }
+  .three_column ul li{
+    float: none;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+  }
+  .blue h2 {
+    background: transparent;
+    color: white;
+    border: 0.25em solid white;
+    font-size: 1.75em;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 1% 1%;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+  }
+  footer h5{
+    padding-top: 1em;
+    font-weight: 100;
+    font-size: 0.6em;
+    color:#fff;
+    float: right;
+  }
 }
+
 @media (max-width: 1110px) and (min-width:800px) {
   .three_column ul li{
     float: none;
@@ -678,7 +689,7 @@ a{
   }
 }
 
-@media (max-width: 950px) and (min-width:800px) {
+/*@media (max-width: 950px) and (min-width:800px) {
   #title {
     width: 100%;
   }
@@ -686,7 +697,7 @@ a{
     padding-top: 12%;
     padding-bottom: -50px;
   }
-}
+}*/
 
 @media (max-width: 800px) and (min-width:600px) {
   .three_column ul li{
@@ -708,10 +719,6 @@ a{
     width: 70%;
     text-align: center;
   }
-  #glasses{
-    /*padding-top: 0%;
-    padding-bottom: -50px;*/
-  }
   #slogan{
     top: 50px;
     font-size: 1.25em;
@@ -727,7 +734,7 @@ a{
 }
 @media (max-width:600px) and (min-width: 100px) {
   #glasses p{
-    top: 125px;
+    top: 75px;
   }
   .navbar-default .navbar-nav > li > a {
     font-size: 0.8em;  
@@ -735,19 +742,13 @@ a{
   .page_title{
     font-size: 1.5em;
   }
-  #glasses{
-    padding-top: 15%;
-    padding-bottom: -50px;
-    max-height: 50%;
-    width: 100%;
-  }
   #slogan{
     top: 50px;
     font-size: 0.75em;
   }
   #explore{
     font-size: 1em;
-    top: 175px;
+    top: 125px;
     width: 60%;
     margin-left: 20%;
     margin-right: 20%;
@@ -763,17 +764,7 @@ a{
   .blue h2 {
     font-size: 1.15em;
   }
-  .wrapper{
-
-  }
   .team ul li h2 {
     line-height: 75%;
   }
-  .navbar {
-    margin: 0;
-  }
-
-}
-#uwaterloologo{
-  float: right;
 }

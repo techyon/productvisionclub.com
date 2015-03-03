@@ -12,3 +12,11 @@
 //                 $(this).html("View GALLERY")
 //             });
 // });
+var addup = 0;
+$( window ).scroll(function() {
+	var height = $(window).scrollTop();
+	if(height>=900){
+		$( ".navbar-default" ).css( "background-color", "#DBDAD9" );
+		$( ".navbar-fixed-top *" ).css( "background-color", "#DBDAD9" );
+	}
+});

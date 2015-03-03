@@ -11,11 +11,11 @@
 
 /*jslint unparam: true */
 /*global blueimp, $ */
-window.onload = function(){
+// window.onload = function(){
    
-       blueimp.Gallery($('#links a'), $('#blueimp-gallery').data());
+//        blueimp.Gallery($('#links a'), $('#blueimp-gallery').data());
    
-};
+// };
 
 $(function () {
     'use strict';
