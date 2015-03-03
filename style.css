@@ -767,4 +767,13 @@ a{
   .team ul li h2 {
     line-height: 75%;
   }
+
+  .logos{
+    width: 40px;
+    height: 40px;
+  } 
+  .logos:hover{
+   margin-bottom: -4px;
+    margin-top: 4px;
+  }
 }

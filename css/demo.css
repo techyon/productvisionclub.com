@@ -97,9 +97,11 @@ a:hover {
 		width: 80%;
 		margin-left: 10%;
 	}
-	#pastlogos{
-		margin-left: 15%;
-		margin-right: 10%;
+	#pastlogos img{
+		max-width:90%;
+		width: 80%;
+		margin-left: 5%;
+		margin-right: 5%;
 	}
 }
 
