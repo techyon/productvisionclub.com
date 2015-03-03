@@ -16,7 +16,7 @@
 //        blueimp.Gallery($('#links a'), $('#blueimp-gallery').data());
    
 // };
-$( window ).scroll(function() {
+$( window ).load(function() {
     $( ".navbar-default" ).css( "background-color", "#DBDAD9" );
     $( ".navbar-fixed-top *" ).css( "background-color", "#DBDAD9" );
   
