@@ -6,9 +6,10 @@ $( window ).scroll(function() {
   		if(height>=900){
 			$( ".navbar-default" ).css( "background-color", "#DBDAD9" );
 			$( ".navbar-fixed-top *" ).css( "background-color", "#DBDAD9" );
+			//$("#logo").attr("src","img/logo.png");
 		}else{
 			$( ".navbar-default" ).css( "background-color", "transparent" );
-			$( ".navbar-fixed-top *" ).css( "background-color", "transparent" );	
+			$( ".navbar-fixed-top *" ).css( "background-color", "transparent" );
 		}
 	}
 	if($(window).width() < 739) {
