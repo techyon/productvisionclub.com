@@ -278,7 +278,7 @@ p {
   font-weight: 800;
   font-size: 2em;
   text-transform: uppercase;
-  color: #6cc9c9;
+  color: black;
 }
 .about ul li{
   display: inline-block;
@@ -454,6 +454,9 @@ a{
 }
 #slogan{
   margin: 0;
+  color: white; 
+  font-family: Slim Joe; 
+  margin-top: 50px; 
 }
 #uwaterloologo{
   float: right;
@@ -578,7 +581,7 @@ a{
 }
 #glasses img{
   width: 100%;
-  opacity: 0.25;
+  /*opacity: 0.25;*/
 }
 #glasses p{
   position: absolute; 
