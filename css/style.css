@@ -585,7 +585,7 @@ a{
 }
 #glasses p{
   position: absolute; 
-  top: 200px; 
+  top: 150px; 
   left: 0; 
   width: 100%; 
   font-weight: 800;
@@ -730,7 +730,7 @@ a{
     text-align: center;
   }
   #slogan{
-    top: 50px;
+    top: 0px;
     font-size: 1.25em;
   }
   #explore{
@@ -744,7 +744,7 @@ a{
 }
 @media (max-width:600px) and (min-width: 100px) {
   #glasses p{
-    top: 75px;
+    top: 50px;
   }
   .navbar-default .navbar-nav > li > a {
     font-size: 0.8em;  
@@ -758,7 +758,7 @@ a{
   }
   #explore{
     font-size: 1em;
-    top: 125px;
+    top: 155px;
     width: 60%;
     margin-left: 20%;
     margin-right: 20%;
