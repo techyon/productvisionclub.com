@@ -243,10 +243,14 @@ p {
 }
 */
 
-#logo {
-  float: right;
+#logo span{
+  font-family: 'Big John', sans-serif;
+  color: black;
+}
+#logo img{
   width: 50px;
   padding: 3px;
+  vertical-align:middle
 }
 .intro h1 {
   font-family: 'Roboto', sans-serif;
@@ -743,8 +747,15 @@ a{
   }
 }
 @media (max-width:600px) and (min-width: 100px) {
+  #logo span{
+    font-style: 0.5em;
+  }
+  #logo img{
+    width: 25px;
+  }
+
   #glasses p{
-    top: 50px;
+    top: 65px;
   }
   .navbar-default .navbar-nav > li > a {
     font-size: 0.8em;  
@@ -757,11 +768,11 @@ a{
     font-size: 0.75em;
   }
   #explore{
-    font-size: 1em;
-    top: 155px;
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
+    font-size: 0.75em;
+    top: 150px;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
     color: black;
   }
   #explore:hover{
@@ -785,6 +796,10 @@ a{
   .logos:hover{
     margin-bottom: 2px;
     margin-top: -2px;
+  }
+  .team ul li img{
+    width:200px;
+    height: 200px;
   }
 }
 .description{
