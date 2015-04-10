@@ -311,6 +311,13 @@ p {
 .about-item{
   height: 400px;
 }
+.about-text{
+  height: 50px;
+  font-size: 0.65em;
+  font-weight: 200;
+  text-transform: none;
+  text-align: left;
+}
 
 
 
