@@ -284,19 +284,35 @@ p {
   text-transform: uppercase;
   color: black;
 }
+
+/*
+  About
+*/
 .about ul li{
   display: inline-block;
-  width: 25%;
+  width: 33%;
   vertical-align: text-top;
 }
 .about ul li h3{
   font-size: 1.5em;
-  font-weight: 400;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 .about ul li p{
-  font-size: 0.5em;
-  font-weight: 100;
+  font-size: 0.65em;
+  font-weight: 200;
+  text-transform: none;
+  text-align: left;
 }
+.about ul li img{
+  height: 200px;
+  width: 200px;
+}
+.about-item{
+  height: 400px;
+}
+
+
 
 .affilations ul li{
   display: inline-block;
