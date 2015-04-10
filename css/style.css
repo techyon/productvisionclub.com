@@ -824,6 +824,9 @@ a{
     width:200px;
     height: 200px;
   }
+  .about ul li p{
+  font-size: 0.5em;
+  }
 }
 .description{
   position: relative;
