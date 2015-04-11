@@ -3,12 +3,9 @@
 	<head>
 		<title>Waterloo Product Vision</title>
 		<meta name="author" content="Sammie Bae">
-		<!---Credits go to the TechYon website designer for lot of the css on this site. I reused the css to help me launch site faster <3 -->
         <meta content="text/html; charset=utf-8" http-equiv="content-type">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=false">
-		<link href='http://fonts.googleapis.com/css?family=Raleway:400,500,700' rel='stylesheet' type='text/css'>
- 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
 		<link rel="icon" type="image/ico" href="img/favicon.ico"/>
 		<!--CSS, JavaScript, and JQuery includes-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
@@ -18,7 +15,6 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	</head>
 	<body>
-
 		<nav class="navbar navbar-default navbar-fixed-top navigation">
 			<a href="." id="logo"><img src="img/logoreal.png"><span>Product Vision Club</span></a>
 			<ul class="nav navbar-nav nav-tabs" id="nav">
@@ -26,15 +22,19 @@
 				<li class="pullleft"><a href=".">Product Vision Club</a></li> -->
 	            <li class="pullright"><a href="#about">About</a></li>
 	            <li class="pullright"><a href="#event">Event</a></li>
-				<li class="pullright"><a href="gallery.html">Gallery</a></li>
+				<li class="pullright">
+					<a href="gallery.html">Gallery</a>
+					<!-- <ul>
+						<li>Reading</li>
+						<li>Talks</li>
+					</ul> -->
+				</li>
 	            <li class="pullright"><a href="#team">Team</a></li>
 	          </ul>
 		</nav>
-
 		<!--Page Intro: background image and title-->
 		<section class="page">
-			<div class="intro three_column">
-				<!--Empty logo right now. Keeps margins to good size-->
+			<div class="intro">
 				<div id="glasses">
 					<img src="img/header_400_pink.png">
 					<p id="slogan">
@@ -51,12 +51,12 @@
 		</section>
 		<!--Page One: About-->
 		<section class="wrapper page">
-			<div class="wrapper page_one about three_column" id="about">
+			<div class="wrapper page_one about" id="about">
 				<h2 class="wrapper page_title">
 					What we do:
 				</h2>
 					<ul>
-						<li class="about-item">
+						<li class="about-item col-lg-4">
 							<img class="hvr-float" src="img/pencil.png" id="pencil">
 							<h3>Educational Sessions<h3>
 							<p>
@@ -65,7 +65,7 @@
 								- Learn how to prepare for interviews and land PM coop and full-time placements<br>
 							</p>
 						</li>
-						<li class="about-item">
+						<li class="about-item col-lg-4">
 							<img class="hvr-float" src="img/buubles.png" id="bubbles">
 							<h3>Guest Speakers<h3>
 							<p>
@@ -75,10 +75,11 @@
 								- General career advice, product perspectives and interactive Q&A sessions<br>
 							</p>
 						</li>
-						<li class="about-item">
+						<li class="about-item col-lg-4">
 							<img class="hvr-float" src="img/space.png" id="space">
 							<h3>Innovation Trek<h3>
 							<p>
+							- Past treks have included meeting with the Creator of BBM, Co-founders of Vidyard and a Google PM<br>
 							- Application based program for selected Trek Fellows to interact with leaders from top technology companies<br>
 							- Exclusive networking opportunity to get first-hand advice and learn from some of the best people from industry<br>
 							- Connect with other like-minded top students with diverse talents and join our fellows and alumni network for career opportunities and advice<br>
