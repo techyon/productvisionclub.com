@@ -1,3 +1,6 @@
+/*
+  Fonts
+*/
 @font-face {
     font-family: 'Big John';
     src: url('../fonts/BIG JOHN.otf') format("opentype");;
@@ -10,6 +13,10 @@
   font-family: 'pier';
   src: url('../fonts/pier.otf') format("opentype");
 }
+
+/*
+  Normalizing
+*/
 html,
 body,
 div,
@@ -213,6 +220,9 @@ img {
   transition: all 0s ease 0s;
 }
 
+/*
+  General  CSS classes
+*/
 .page {
   text-align: center;
 }
@@ -224,7 +234,6 @@ p {
   color: #5C5C5C;
 }
 .intro {
-  /*background: #000000 url('img/bg.png') center center no-repeat;*/
   background-color: #DBDAD9;
   background-size: cover;
   text-align: center;
@@ -249,7 +258,6 @@ p {
 #nav li:hover > ul{
   display:block
 }
-
 
 #logo span{
   font-family: 'Big John', sans-serif;
@@ -313,8 +321,8 @@ p {
   text-align: left;
 }
 .about ul li img{
-  height: 200px;
-  width: 200px;
+  height: 160px;
+  width: 160px;
 }
 .about-item{
   height: 400px;
@@ -327,27 +335,6 @@ p {
   text-align: left;
 }
 
-
-
-.affilations ul li{
-  display: inline-block;
-  width: 25%;
-  vertical-align: text-top;
-  height:256px;
-}
-.affilations ul li img{ 
-  width: 256px;
-}
-.affilations ul li h2{
-  color: #6cc9c9;
-  font-size: 1.5em;
-  font-weight: 800;
-}
-.test {
-  font-color:#6cc9c9;
-  font-size: 1.5em;
-  font-weight: 400;
-}
 .team ul li{
   display: inline-block;
   width: 30%;
@@ -490,7 +477,7 @@ a{
 #slogan{
   margin: 0;
   color: white; 
-  font-family: Slim Joe; 
+  font-family: 'Slim Joe',sans-serif; 
   margin-top: 50px; 
 }
 #uwaterloologo{
