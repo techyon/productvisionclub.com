@@ -821,6 +821,9 @@ a{
   .about ul li p{
   font-size: 0.5em;
   }
+  #glasses img{
+    height: 99%;
+  }
 }
 .description{
   position: relative;
@@ -1046,7 +1049,7 @@ a{
         margin: 0 -2px -50px 0px;
         }
     .b-mega .b-polygon-part_content:before {
-        content:counter(hexagon);
+    
         counter-increment:hexagon;
 
         font-size: 3em;
@@ -1081,7 +1084,7 @@ a{
         margin: 0 -54px -50px 26px;
         }
     .b-megahexagon .b-polygon-part_content:before {
-        content:counter(hexagon);
+      
         counter-increment:hexagon;
 
         font-size: 3em;
@@ -1109,4 +1112,13 @@ a{
 }
 #dan{
   background-image: url(http://productvisionclub.com/img/dan.jpg);
+}
+#simran{
+  background-image: url(http://productvisionclub.com/img/simran.jpg);
+}
+#sammie{
+  background-image: url(http://productvisionclub.com/img/sammie.jpg);
+}
+#kaivalya{
+  background-image: url(http://productvisionclub.com/img/kaivalya.jpg);
 }
