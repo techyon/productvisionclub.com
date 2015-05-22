@@ -45,11 +45,7 @@
 	width: 60px;
 }
 
-@media only screen and (max-width: 767px) {
-	.pvc {
-		margin-top: -3px;
-	}
-}
+
 
 
 /* Clients */
@@ -114,4 +110,13 @@ h1, h2, h3, h4, h5, h6{
 .pvcteam{
 	width: 400px;
 	height: 400px;
+}
+
+@media only screen and (max-width: 767px) {
+	.pvc{
+		margin-top: -3px;
+	}
+	.contact-details *{
+		font-size: 1em;
+	}
 }
