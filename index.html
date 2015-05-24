@@ -2,7 +2,7 @@
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--><html class="no-js" ng-app="myApp" lang="de">  <!--<![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" ng-app="myApp" lang="de" ng-controller="MemberCtrl">  <!--<![endif]-->
 <head>
 
   <!-- META DATA -->
@@ -103,8 +103,8 @@
                   <li><a href="#home">Home</a></li>
                   <li><a href="#about">About</a></li>
                   <li><a href="#events">Events</a></li>
-               <!--    <li><a href="#parallax3">Testimonials</a></li>
-                  <li><a href="#portfolio">Portfolio</a></li> -->
+                  <!-- <li><a href="#parallax3">Testimonials</a></li> -->
+                  <li><a href="#gallery">Gallery</a></li>
                   <li><a href="#team">Team</a></li>
                   <li><a href="https://medium.com/@ProductVision" target="_blank">Blog</a></li>
                   <!-- <li><a href="#portfolio">Portfolio</a></li>
@@ -415,7 +415,102 @@ founders from industry.  Our mission is to <span class="highlight">inspire stude
       </div><!-- END SIXTEEN COLUMNS -->
    </div>
    
+   <!-- START PORTFOLIO SECTION -->
+  <div id="gallery" class="page">
 
+    <div class="container">
+           <div class="row">
+      <div class="sixteen columns">
+              <!-- START TITLE -->
+        <div class="title">
+          <h1>Events Gallery</h1>
+                  <div class="subtitle">
+                     <!--  <p>Hire us if you like what we do because we helps Agencies to link <span class="highlight">Business</span> processes and <span class="highlight">People.</span></p> -->
+                  </div><!-- END SUBTITLE -->
+                </div><!-- END TITLE -->
+      </div><!-- END SIXTEEN COLUMNS -->
+           </div><!-- END ROW -->
+          </div><!-- END CONTAINER -->
+
+           <!-- START AJAX SECTION -->
+            <div id="ajax-section">
+             <div class="container clearfix">
+
+
+              <!-- START PROJECT NAVIGATION -->
+              <div id="project-navigation">
+                  <ul>
+                      <li id="nextProject"><a href="#"></a></li>
+                      <li id="prevProject"><a href="#" class="disabled"></a></li>
+                   </ul>
+               </div>
+               <!-- END PROJECT NAVIGATION -->
+
+               <!-- START PROJECT CLOSE BUTTON -->
+               <div id="closeProject">
+                    <a href="#loader"><i class="icon-remove"></i></a>
+
+               </div>
+               <!-- START PROJECT CLOSE BUTTON -->
+
+               <!-- START PROJECT LOADER SECTION -->
+               <div id="loader"></div>
+               <!-- END PROJECT CLOSE BUTTON -->
+
+               <!-- START AJAX CONTENT -->
+               <div id="ajax-content-outer">
+                    <div id="ajax-content-inner"></div>
+               </div>
+               <!-- END AJAX CONTENT -->
+
+        </div><!-- END CONTAINER -->
+
+    </div>
+           <!-- END AJAX SECTION -->
+
+         <div class="clear"></div>
+
+
+
+   <div class="container clearfix">
+
+   <!-- START PORTFOLIO FILTERING -->
+   <div  id="filters" class="sixteen columns">
+
+      <ul class="clearfix">
+      <!--   <li><a href="#" data-filter="*" class="active"><h3>All</h3></a></li>
+        <li><a href="#" data-filter=".talk"><h3>Tech Talks</h3></a></li>
+        <li><a href="#" data-filter=".trek"><h3>Innovation Trek</h3></a></li>
+        <li><a href="#" data-filter=".sesssions"><h3>Information Sessions</h3></a></li> -->
+<!--         <li><a href="#" data-filter=".videography"><h3>Videography</h3></a></li>
+        <li><a href="#" data-filter=".web"><h3>Web</h3></a></li> -->
+      </ul>
+    </div><!-- END PORTFOLIO FILTERING -->
+   </div><!-- END CONTAINER -->
+
+
+   <!-- START PORTFOLIO WRAP -->
+   <div id="portfolio-wrap">
+    <!-- START PORTFOLIO ITEM -->
+    	<div ng-repeat="portfolio in portfolios">
+    		<div class="portfolio-item one-third column" ng-class="portfoliosClass($index);">
+    			<div class="portfolio">
+    				<a class="portfolio-image">
+    					<img ng-src="{{portfolio.imageURL}}" alt="Portfolio {{$index+1}}">
+    					  <div class="portfolio-overlay">                
+		                    <div class="thumb-info">                
+		                      <h3>{{portfolio.header}}</h3><!-- OVERLAY TITLE -->  
+		                      <p class="portfolio-tags">{{portfolio.subheader}}</p><!-- END PORTFOLIO TAGS -->  
+		                      <i class="icon-picture"></i><!-- OVERLAY ICON --> 
+		                    </div>                
+		                </div><!-- END PORTFOLIO OVERLAY --> 
+    				</a>
+    			</div>
+    		</div>
+    	</div>
+  </div>
+    <!-- END PORTFOLIO ITEM -->
+    </div><!-- End portfolio Section -->
 
 
 
@@ -448,7 +543,7 @@ founders from industry.  Our mission is to <span class="highlight">inspire stude
              <div class="row">
 
             <div class="sixteen columns">
-            <div class="angularstuff"  ng-app="myApp" ng-controller="MemberCtrl">
+            <div>
               <div ng-repeat="member in members" class="team-member">
                 <div class="team-thumb img-wrp">
                     <img class="pvcteam" ng-src="{{member.imageURL}}" alt="team">
@@ -613,56 +708,7 @@ founders from industry.  Our mission is to <span class="highlight">inspire stude
 
   <!-- Angular -->
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
-  <script>
-  angular.module('myApp', [])
-  angular.module('myApp')
-  //Question 1
-  .controller('MemberCtrl',['$scope',function($scope){
-    $scope.members = [
-    {name:'Sung Cheul Hong', imageURL:"images/team/sung.jpg",role:"Founder",job:"Groupon: Associate Product Manager",program:"System Design Engineering 2015", email:"sc3hong@uwaterloo.ca", LinkedIn:"https://www.linkedin.com/in/sungcheulhong", description:"Sung has done his first two co-ops at startups for developer positions. He then moved into business roles are BlackBerry and Manulife Financial. For his last two co-op terms, he has worked as an associate product manager where he is working full-time now"},
-    
-    {name:'Noah Maccalum', imageURL:"images/team/noah.jpg",role:"Co-Founder",job:"Microsoft: Product Manager",program:"Nanotechnology Engineering 2015", email:"noahmacca@gmail.com", LinkedIn:"https://www.linkedin.com/pub/noah-maccallum/31/949/227",
-     description:"Noah has done numerous co-ops at established instiutions including MIT and Harvard. He also has written numerous scientific papers. After working at Microsoft as product manager, his interest in tech grew and he is now a full-time product manager at Microsoft"},
-    
-    {name:'Dan Li', imageURL:"images/team/dan.jpg",role:"Outreach Advisor",job:"LinkedIn: Associate Product Manager",program:"Computer Science 2015", email:"", LinkedIn:"https://www.linkedin.com/pub/dan-li/35/a2b/5a9", description:"Dan has done co-ops at top tech companies including Bloomberg, Pinterest, Twitter, and Microsoft. He was also accepted to Next36, prestige program for budding entrepenuers. He is going to work at LinkedIn as full-time product manager"},
-    
-    {name:'Kartik Talwar', imageURL:"images/team/kartik.jpg",role:"Advisor",program:"4A Physics", email:"", LinkedIn:"https://www.linkedin.com/in/kartiktalwar", description:""},
-    
-    {name:'Kaivalya Gandhi', imageURL:"images/team/kaivalya.jpg",role:"Co-President",program:"2B Software Engineering", email:"kaivalya.gandhi@gmail.com", LinkedIn:"https://www.linkedin.com/in/kaivalyagandhi"},
-    
-    {name:'James Lindsay', imageURL:"images/team/james.png",role:"Co-President",program:"3B IT Management", email:"", LinkedIn:"https://www.linkedin.com/in/jamesbrandonlindsay"},
-    
-    {name:'Sammie Bae', imageURL:"images/team/sammie.jpg",role:"Technology Co-Director",program:"1B System Design Engineering", email:"baesammie@gmail.com", LinkedIn:"https://ca.linkedin.com/in/sammiebae", description:"I get excited about technology, data, and innovation. "},
-    
-    {name:'Reginald Suh', imageURL:"images/team/regi.jpg",role:"Technology Co-Director",program:"1B Computer Science", email:"rsuh@uwaterloo.ca", LinkedIn:"https://ca.linkedin.com/in/reginaldsuh"},
-    
-    {name:'Simran Jassal', imageURL:"images/team/simran.jpg",role:"CO-DIRECTOR OF PRODUCT VISION CHALLENGE & TECH",program:"1B System Design Engineering", email:"simran.jassal@hotmail.com", LinkedIn:"https://ca.linkedin.com/in/simranjassal"},
-    
-    {name:'Mike Hennessey', imageURL:"images/team/mike.jpg",role:"CONTENT & MARKETING CO-DIRECTOR",program:"3A Global Business & Digital Arts", email:"mikerjhen@gmail.com", LinkedIn:"https://ca.linkedin.com/in/mrjhenne"},
-    
-    {name:'Kaitlyn Yong', imageURL:"images/team/kaitlyn.jpg",role:"CO-DIRECTOR OF THE INNOVATION TREK",program:"1B Computer Science", email:"kaitlyn.taylor.yong@gmail.com", LinkedIn:"https://ca.linkedin.com/in/kaitlynyong"},
-    // {name:'Shalin Upadhyay', imageURL:"images/team/regi.svg",role:"CO-DIRECTOR OF PRODUCT VISION CHALLENGE",program:"1B Computer Science", email:"", LinkedIn:""},
-    {name:'Meram Riad', imageURL:"images/team/meram.jpg",role:"EXECUTIVE LEAD FOR THE PRODUCT VISION CHALLENGE",program:"2A Science and Business", email:"riad.meram@gmail.com", LinkedIn:"https://ca.linkedin.com/pub/meram-riad/b0/a77/5bb"},
-    
-    {name:'Jennifer Shen', imageURL:"images/team/jennifer.png",role:"OUTREACH DIRECTOR",program:"2B Computer Science", email:"jennifershen26@gmail.com", LinkedIn:"https://ca.linkedin.com/pub/jennifer-shen/96/9ba/78a"},
-    
-    {name:'Pedja Ristic', imageURL:"images/team/pedja.jpg",role:"MEDIA DIRECTOR",program:"Global Business & Digital Arts", email:"peda.ristic@live.ca", LinkedIn:"https://ca.linkedin.com/in/pedjaristic", description:"A Ballroom dancing tech fiend with a fetish for programming and design. Pedja’s aim is to paint the walls of user interaction with the colour of quality."},
-    
-    {name:'Eric Chung', imageURL:"images/team/eric.png",role:"GRAPHICS & DESIGN DIRECTOR",program:"Global Business & Digital Arts", email:"", LinkedIn:"https://ca.linkedin.com/in/ericchungdesign", description:"Passionate about design and creating a more user-friendly world. Looking forward to connecting with like-minded people and growing alongside this promising team."},
-    
-    {name: 'Akash Sant', imageURL:"images/team/akash.png",role:"Co-Director",program:"2B Software Engineering", email:"acsant@uwaterloo.ca", LinkedIn:"https://ca.linkedin.com/in/acsant", description:"Akash is excited to further develop his leadership and networking skills to empower students with exclusive opportunities to interact with management from top companies and through leaders across North America to nurture some of Waterloo's best future product managers and entrepreneurs."},
-    
-    {name:'Jeron Chan', imageURL:"images/team/jeron.jpg",role:"Content & Marketing",program:"2B Environment and Business", email:"", LinkedIn:"https://ca.linkedin.com/in/jeronchan"},
-    // {name:'Ahilan Suriyakumaran', imageURL:"#",role:"Technology Co-Director", email:"", LinkedIn:"", description:"Keen interest in learning anything new, but even more interested in learning new technology. Excited about the growth of the club and being a part of a growing network and community in Waterloo."},
-    
-    {name:'Umesh Khanna', imageURL:"images/team/umesh.jpg",role:"Director of Tech Talks",program:"1B Electrical Engineering", email:"", LinkedIn:"https://ca.linkedin.com/in/umeshkhanna", description:""}
-    ];
-    $scope.portfolios = [
-      {imageURL:"images/portfolio/portfolio9.jpg", header: "Featured Image", subheader: "Photography"},
-      {imageURL:"images/portfolio/portfolio8.jpg", header: "hi", subheader: "Hello"}
-    ];
-  }]);
-  </script>
+  <script src="js/app.js"></script>
 
   <!-- JARVIS THEME SCRIPTS -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
