@@ -1,18 +1,15 @@
 /* Landing Page */
 
 #home{
-	width: 100%;
-	height: 903px;
-
-	background: url("../images/background.png") no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	background: url("../images/background.svg");
 }
 
 #logo{
 	height: 200px;
+}
+
+#header-logo {
+	margin-top: -15px;
 }
 
 .home-logo-text a{
@@ -50,7 +47,11 @@
 	width: 60px;
 }
 
-
+@media only screen and (max-width: 767px) {
+	.pvc {
+		margin-top: -3px;
+	}
+}
 
 
 /* Clients */
@@ -81,10 +82,16 @@
 	text-align: center;
 }
 
-
+.milestone-counter {
+	text-align: center;
+}
 /* companies */
 .companies {
 	text-align: center;
+}
+
+.client-logos.sponsors {
+	margin-bottom: 40px;
 }
 
 /* Contact parallax */
@@ -117,11 +124,12 @@ h1, h2, h3, h4, h5, h6{
 	height: 400px;
 }
 
-@media only screen and (max-width: 767px) {
-	.pvc{
-		margin-top: -3px;
-	}
-	.contact-details *{
-		font-size: 1em;
-	}
+/* Portfolio */
+.portfolioImage {
+	width: 400px;
+	height: 400px;
+}
+
+.thumb-info {
+	margin-top: 15px;
 }
