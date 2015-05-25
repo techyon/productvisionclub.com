@@ -769,7 +769,7 @@ p.quote {
 --------------------------------------------------------*/
 
 .page {
-	padding: 60px 0;
+	padding: 50px 0 10px;
 	position: relative;
 	background: #ffffff;
 	text-align:center;
