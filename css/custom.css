@@ -3,11 +3,14 @@
 #home{
 
 	width: 100%;
-	 background: url("../images/background.png") no-repeat center center fixed; 
+	 background: url("../images/background.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 
 }
 
@@ -28,6 +31,15 @@
 .subtitle{
 	text-align: center;
 	margin-top: 45px;
+}
+
+/* What we do */
+.container .one-third.column.what-we-do {
+	width: 220px;
+}
+
+.what-title {
+	font-size: 25px;
 }
 
 /* Our Mission */
@@ -97,6 +109,15 @@ a.clients {
   /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
     
+.sixteen.columns.subscribe {
+	text-align: center;
+	height: 170px;
+	background-color: #F5F5F5;
+}
+
+.list {
+	padding-top: 35px;
+}
 
 .close{
 	z-index: 2000;
@@ -105,6 +126,11 @@ a.clients {
 /* Fun facts */
 .facts {
 	text-align: center;
+}
+
+.title .impact {
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .milestone-counter {
