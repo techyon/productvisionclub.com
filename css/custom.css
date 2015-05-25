@@ -1,6 +1,6 @@
 /* Landing Page */
 
-/*#home{
+#home{
 
 	width: 100%;
 	 background: url("../images/background.png") no-repeat center center fixed; 
@@ -9,7 +9,7 @@
     -o-background-size: cover;
     background-size: cover;
 
-}*/
+}
 
 #logo{
 	height: 200px;
