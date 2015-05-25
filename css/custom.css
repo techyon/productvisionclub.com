@@ -30,6 +30,19 @@
 	margin-top: 45px;
 }
 
+/* Our Mission */
+
+.title.mission {
+	padding: 17px;
+	margin-bottom: 22px;
+}
+
+/* Our Events */
+.title.events {
+	margin-top: -20px;
+	margin-bottom: 15px;
+}
+
 /* Our Team */
 
 .highlight.execs {
@@ -70,6 +83,11 @@
 .companies {
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+
+a.clients {
+	position: relative;
+	display: inline-block;
 }
 
 /* MailChimp */
