@@ -35,7 +35,7 @@
 
 /* What we do */
 .container .one-third.column.what-we-do {
-	width: 220px;
+	/*width: 220px;*/
 }
 
 .what-title {
@@ -90,6 +90,7 @@
 
 .client-logos {`
 	display: inline;
+	padding: 50px 0 20px;
 }
 
 .companies {
@@ -97,9 +98,18 @@
 	padding-bottom: 20px;
 }
 
+.container.greyclearfix.company {
+	padding-top: 20px;
+}
+
 a.clients {
 	position: relative;
 	display: inline-block;
+}
+
+.bottom-company {
+	padding-bottom: 62px;
+	margin-bottom: -11px;
 }
 
 /* MailChimp */
@@ -146,8 +156,16 @@ a.clients {
 }
 
 /* Contact parallax */
-.email {
-	font-size: 450%;
+h1.email {
+	font-size: 350%;
+}
+
+h2.address {
+	font-size: 300%;
+}
+
+h2.small-address {
+	font-size: 250%;
 }
 
 /*Font change*/
@@ -167,9 +185,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /*Email size reduced*/
-.email{
-	font-size: 2.5em;
-}
+
 .pvcteam{
 	width: 400px;
 	height: 400px;
@@ -183,4 +199,15 @@ h1, h2, h3, h4, h5, h6{
 
 .thumb-info {
 	margin-top: 15px;
+}
+
+/* Our Team */
+
+h3.ng-binding {
+	font-size: 150%;
+}
+
+/* Contact Us */
+.contact-us {
+	margin-top: 20px;
 }
