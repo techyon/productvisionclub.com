@@ -90,6 +90,7 @@
 
 .client-logos {`
 	display: inline;
+	padding: 50px 0 20px;
 }
 
 .companies {
@@ -97,9 +98,18 @@
 	padding-bottom: 20px;
 }
 
+.container.greyclearfix.company {
+	padding-top: 20px;
+}
+
 a.clients {
 	position: relative;
 	display: inline-block;
+}
+
+.bottom-company {
+	padding-bottom: 62px;
+	margin-bottom: -11px;
 }
 
 /* MailChimp */
@@ -150,6 +160,13 @@ h1.email {
 	font-size: 350%;
 }
 
+h2.address {
+	font-size: 300%;
+}
+
+h2.small-address {
+	font-size: 250%;
+}
 
 /*Font change*/
 body,.home-logo-text a{
@@ -188,4 +205,9 @@ h1, h2, h3, h4, h5, h6{
 
 h3.ng-binding {
 	font-size: 150%;
+}
+
+/* Contact Us */
+.contact-us {
+	margin-top: 20px;
 }
