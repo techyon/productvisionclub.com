@@ -1515,10 +1515,10 @@ p.quote {
 .contact-box {
 	width: 100%;
 	text-align: center;
-	padding: 45px 0px 60px;
+	padding: 0px 0px 0px;
 }
 .contact-details {
-	width: 70%;
+	width: 100%;
 	padding: 5px 0;
 	margin: 0 auto 10px;
 }

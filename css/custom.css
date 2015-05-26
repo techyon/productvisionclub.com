@@ -35,7 +35,7 @@
 
 /* What we do */
 .container .one-third.column.what-we-do {
-	width: 220px;
+	/*width: 220px;*/
 }
 
 .what-title {
@@ -146,9 +146,10 @@ a.clients {
 }
 
 /* Contact parallax */
-.email {
-	font-size: 450%;
+h1.email {
+	font-size: 350%;
 }
+
 
 /*Font change*/
 body,.home-logo-text a{
@@ -167,9 +168,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /*Email size reduced*/
-.email{
-	font-size: 2.5em;
-}
+
 .pvcteam{
 	width: 400px;
 	height: 400px;
@@ -183,4 +182,10 @@ h1, h2, h3, h4, h5, h6{
 
 .thumb-info {
 	margin-top: 15px;
+}
+
+/* Our Team */
+
+h3.ng-binding {
+	font-size: 150%;
 }
