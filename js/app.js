@@ -14,21 +14,23 @@
     
     {name:'Kaivalya Gandhi', imageURL:"images/team/kaivalya.jpg",role:"Co-President",program:"2B Software Engineering", email:"kaivalya.gandhi@gmail.com", LinkedIn:"https://www.linkedin.com/in/kaivalyagandhi"},
     
-    {name:'James Lindsay', imageURL:"images/team/james.png",role:"Co-President",program:"3B IT Management", email:"", LinkedIn:"https://www.linkedin.com/in/jamesbrandonlindsay"},
+    {name:'James Lindsay', imageURL:"images/team/james.png",role:"Co-President",program:"3B IT Management", email:"", LinkedIn:"https://www.linkedin.com/in/jamesbrandonlindsay", description:"An entrepreneur and visionary thinker. Currently running a startup company and passionate for creating unique products and is the Co-president of PVC with the goal to push boundaries and globalize the club."},
     
-    {name:'Sammie Bae', imageURL:"images/team/sammie.jpg",role:"Technology Co-Director",program:"1B System Design Engineering", email:"baesammie@gmail.com", LinkedIn:"https://ca.linkedin.com/in/sammiebae", description:"I get excited about technology, data, and innovation. "},
+    {name:'Sammie Bae', imageURL:"images/team/sammie.jpg",role:"Technology Co-Director",program:"1B System Design Engineering", email:"baesammie@gmail.com", LinkedIn:"https://ca.linkedin.com/in/sammiebae", description:"I get excited about technology, data, and innovation."},
     
     {name:'Reginald Suh', imageURL:"images/team/regi.jpg",role:"Technology Co-Director",program:"1B Computer Science", email:"rsuh@uwaterloo.ca", LinkedIn:"https://ca.linkedin.com/in/reginaldsuh"},
     
     {name:'Simran Jassal', imageURL:"images/team/simran.jpg",role:"CO-DIRECTOR OF PRODUCT VISION CHALLENGE & TECH",program:"1B System Design Engineering", email:"simran.jassal@hotmail.com", LinkedIn:"https://ca.linkedin.com/in/simranjassal"},
     
-    {name:'Mike Hennessey', imageURL:"images/team/mike.jpg",role:"CONTENT & MARKETING CO-DIRECTOR",program:"3A Global Business & Digital Arts", email:"mikerjhen@gmail.com", LinkedIn:"https://ca.linkedin.com/in/mrjhenne"},
+    {name:'Mike Hennessey', imageURL:"images/team/mike.jpg",role:"CONTENT & MARKETING CO-DIRECTOR",program:"3A Global Business & Digital Arts", email:"mikerjhen@gmail.com", LinkedIn:"https://ca.linkedin.com/in/mrjhenne", 
+    description:"A media mastermind with a focus on brand agility and effective communication. Mike is driven to develop unique marketing strategies that reflect excellence and expand user engagement."},
     
-    {name:'Kaitlyn Yong', imageURL:"images/team/kaitlyn.jpg",role:"CO-DIRECTOR OF THE INNOVATION TREK",program:"1B Computer Science", email:"kaitlyn.taylor.yong@gmail.com", LinkedIn:"https://ca.linkedin.com/in/kaitlynyong"},
-    // {name:'Shalin Upadhyay', imageURL:"images/team/regi.svg",role:"CO-DIRECTOR OF PRODUCT VISION CHALLENGE",program:"1B Computer Science", email:"", LinkedIn:""},
+    {name:'Kaitlyn Yong', imageURL:"images/team/kaitlyn.jpg",role:"CO-DIRECTOR OF THE INNOVATION TREK",program:"1B Computer Science", email:"kaitlyn.taylor.yong@gmail.com", LinkedIn:"https://ca.linkedin.com/in/kaitlynyong", 
+    description:"Thrilled about deploying her skills, positive attitude, and strong work ethic into PVC with the hopes to share the same trek experience she received last term."},
+    //{name:'Shalin Upadhyay', imageURL:"images/team/regi.svg",role:"CO-DIRECTOR OF PRODUCT VISION CHALLENGE",program:"2A Computer Science", email:"", LinkedIn:"https://ca.linkedin.com/in/ushalin", description:"Passionate about software engineering, low-level hardware and space exploration. And is excited to apply his knowledge of technology and technological world to the club, and helping it grow."},
     {name:'Meram Riad', imageURL:"images/team/meram.jpg",role:"EXECUTIVE LEAD FOR THE PRODUCT VISION CHALLENGE",program:"2A Science and Business", email:"riad.meram@gmail.com", LinkedIn:"https://ca.linkedin.com/pub/meram-riad/b0/a77/5bb"},
     
-    {name:'Jennifer Shen', imageURL:"images/team/jennifer.png",role:"OUTREACH DIRECTOR",program:"2B Computer Science", email:"jennifershen26@gmail.com", LinkedIn:"https://ca.linkedin.com/pub/jennifer-shen/96/9ba/78a"},
+    {name:'Jennifer Shen', imageURL:"images/team/jennifer.png",role:"OUTREACH DIRECTOR",program:"2B Computer Science", email:"jennifershen26@gmail.com", LinkedIn:"https://ca.linkedin.com/pub/jennifer-shen/96/9ba/78a", description:"Excited to learn more about the ins and outs of Product Management."},
     
     {name:'Pedja Ristic', imageURL:"images/team/pedja.jpg",role:"MEDIA DIRECTOR",program:"Global Business & Digital Arts", email:"peda.ristic@live.ca", LinkedIn:"https://ca.linkedin.com/in/pedjaristic", description:"A Ballroom dancing tech fiend with a fetish for programming and design. Pedja’s aim is to paint the walls of user interaction with the colour of quality."},
     
@@ -36,8 +38,8 @@
     
     {name: 'Akash Sant', imageURL:"images/team/akash.png",role:"Co-Director",program:"2B Software Engineering", email:"acsant@uwaterloo.ca", LinkedIn:"https://ca.linkedin.com/in/acsant", description:"Akash is excited to further develop his leadership and networking skills to empower students with exclusive opportunities to interact with management from top companies and through leaders across North America to nurture some of Waterloo's best future product managers and entrepreneurs."},
     
-    {name:'Jeron Chan', imageURL:"images/team/jeron.jpg",role:"Content & Marketing",program:"2B Environment and Business", email:"", LinkedIn:"https://ca.linkedin.com/in/jeronchan"},
-    // {name:'Ahilan Suriyakumaran', imageURL:"#",role:"Technology Co-Director", email:"", LinkedIn:"", description:"Keen interest in learning anything new, but even more interested in learning new technology. Excited about the growth of the club and being a part of a growing network and community in Waterloo."},
+    {name:'Jeron Chan', imageURL:"images/team/jeron.jpg",role:"Content & Marketing",program:"2B Environment and Business", email:"", LinkedIn:"https://ca.linkedin.com/in/jeronchan", description:"Jeron is passionate about meeting new people and sharing experiences. What gives him immense joy is to be a part of a unique experience from start to finish. The reason why he’s part of the Product Vision Club is to meet people with similar interests and mindset."},
+    // {name:'Ahilan Suriyakumaran', imageURL:"#",role:"Technology Co-Director", email:"", LinkedIn:"https://ca.linkedin.com/pub/ahilan-suriyakumaran/58/799/931", description:"Keen interest in learning anything new, but even more interested in learning new technology. Excited about the growth of the club and being a part of a growing network and community in Waterloo."},
     
     {name:'Umesh Khanna', imageURL:"images/team/umesh.jpg",role:"Director of Tech Talks",program:"1B Electrical Engineering", email:"", LinkedIn:"https://ca.linkedin.com/in/umeshkhanna", description:""}
     ];
