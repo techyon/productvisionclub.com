@@ -682,7 +682,7 @@ p.quote {
 --------------------------------------------------------*/
 
 .bg3 {
-	background-image: url(../images/parallax/parallax3.jpg);
+	background-image: url(../images/parallax/parallax1.jpg);
 }
 .testimonial-slider {
 	position: relative;
@@ -838,7 +838,7 @@ p.quote {
 	background: radial-gradient(center center, circle cover, #FFD600 0%, #E2BE01 100%);
 }
 .home-parallax {
-	background: url(../images/parallax/parallax4.jpg) fixed;
+	background: url(../images/parallax/parallax1.jpg) fixed;
 	background-size: cover;
 	background-position: center top;
 	background-color: #FFD600;
