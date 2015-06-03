@@ -14,7 +14,7 @@
     
     {name:'Kaivalya Gandhi', imageURL:"images/team/kaivalya.jpg",role:"Co-President",program:"2B Software Engineering", email:"kaivalya.gandhi@gmail.com", LinkedIn:"https://www.linkedin.com/in/kaivalyagandhi"},
     
-    {name:'James Lindsay', imageURL:"images/team/james.png",role:"Co-President",program:"3B IT Management", email:"", LinkedIn:"https://www.linkedin.com/in/jamesbrandonlindsay", description:"An entrepreneur and visionary thinker. Currently running a startup company and passionate for creating unique products and is the Co-president of PVC with the goal to push boundaries and globalize the club."},
+    {name:'James Lindsay', imageURL:"images/team/james.png",role:"Co-President",program:"3B IT Management", email:"jamesleelindsay@gmail.com", LinkedIn:"https://www.linkedin.com/in/jamesbrandonlindsay", description:"An entrepreneur and visionary thinker. Currently running a startup company and passionate for creating unique products and is the Co-president of PVC with the goal to push boundaries and globalize the club."},
     
     {name:'Sammie Bae', imageURL:"images/team/sammie.jpg",role:"Technology Co-Director",program:"1B System Design Engineering", email:"baesammie@gmail.com", LinkedIn:"https://ca.linkedin.com/in/sammiebae", description:"I get excited about technology, data, and innovation."},
     
@@ -34,14 +34,14 @@
     
     {name:'Pedja Ristic', imageURL:"images/team/pedja.jpg",role:"MEDIA DIRECTOR",program:"Global Business & Digital Arts", email:"peda.ristic@live.ca", LinkedIn:"https://ca.linkedin.com/in/pedjaristic", description:"A Ballroom dancing tech fiend with a fetish for programming and design. Pedja’s aim is to paint the walls of user interaction with the colour of quality."},
     
-    {name:'Eric Chung', imageURL:"images/team/eric.png",role:"GRAPHICS & DESIGN DIRECTOR",program:"Global Business & Digital Arts", email:"", LinkedIn:"https://ca.linkedin.com/in/ericchungdesign", description:"Passionate about design and creating a more user-friendly world. Looking forward to connecting with like-minded people and growing alongside this promising team."},
+    {name:'Eric Chung', imageURL:"images/team/eric.png",role:"GRAPHICS & DESIGN DIRECTOR",program:"Global Business & Digital Arts", email:"ew2chung@outlook.com", LinkedIn:"https://ca.linkedin.com/in/ericchungdesign", description:"Passionate about design and creating a more user-friendly world. Looking forward to connecting with like-minded people and growing alongside this promising team."},
     
     {name: 'Akash Sant', imageURL:"images/team/akash.png",role:"Co-Director",program:"2B Software Engineering", email:"acsant@uwaterloo.ca", LinkedIn:"https://ca.linkedin.com/in/acsant", description:"Akash is excited to further develop his leadership and networking skills to empower students with exclusive opportunities to interact with management from top companies and through leaders across North America to nurture some of Waterloo's best future product managers and entrepreneurs."},
     
-    {name:'Jeron Chan', imageURL:"images/team/jeron.jpg",role:"Content & Marketing",program:"2B Environment and Business", email:"", LinkedIn:"https://ca.linkedin.com/in/jeronchan", description:"Jeron is passionate about meeting new people and sharing experiences. What gives him immense joy is to be a part of a unique experience from start to finish. The reason why he’s part of the Product Vision Club is to meet people with similar interests and mindset."},
+    {name:'Jeron Chan', imageURL:"images/team/jeron.jpg",role:"Content & Marketing",program:"2B Environment and Business", email:"jeron.chan@gmail.com", LinkedIn:"https://ca.linkedin.com/in/jeronchan", description:"Jeron is passionate about meeting new people and sharing experiences. What gives him immense joy is to be a part of a unique experience from start to finish. The reason why he’s part of the Product Vision Club is to meet people with similar interests and mindset."},
     // {name:'Ahilan Suriyakumaran', imageURL:"#",role:"Technology Co-Director", email:"", LinkedIn:"https://ca.linkedin.com/pub/ahilan-suriyakumaran/58/799/931", description:"Keen interest in learning anything new, but even more interested in learning new technology. Excited about the growth of the club and being a part of a growing network and community in Waterloo."},
     
-    {name:'Umesh Khanna', imageURL:"images/team/umesh.jpg",role:"Director of Tech Talks",program:"1B Electrical Engineering", email:"", LinkedIn:"https://ca.linkedin.com/in/umeshkhanna", description:""}
+    {name:'Umesh Khanna', imageURL:"images/team/umesh.jpg",role:"Director of Tech Talks",program:"1B Electrical Engineering", email:"umeshkumarkhanna@hotmail.com", LinkedIn:"https://ca.linkedin.com/in/umeshkhanna", description:""}
     ];
     $scope.portfolios = [
       {imageURL:"images/Gallery/1.jpg", header: "Quora", subheader: "Tech Talks"},
@@ -49,7 +49,7 @@
       {imageURL:"images/Gallery/3.jpg", header: "Square", subheader: "Tech Talks"},
       {imageURL:"images/Gallery/4.jpg", header: "Mozilla", subheader: "Tech Talks"},
       {imageURL:"images/Gallery/5.jpg", header: "Mozilla", subheader: "Tech Talks"},
-      {imageURL:"images/Gallery/6.jpg", header: "uWaterloo PMs", subheader: "Information Sessions"},
+      {imageURL:"images/Gallery/6.jpg", header: "PM talk", subheader: "Information Sessions"},
       {imageURL:"images/Gallery/8.jpg", header: "Club Photo", subheader: "Information Sessions"},
       {imageURL:"images/Gallery/13.jpg", header: "Vidyard", subheader: "Innovation Trek"},
       {imageURL:"images/Gallery/11.jpg", header: "Wellframe", subheader: "Tech Talks"},
