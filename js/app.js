@@ -49,7 +49,7 @@
       {imageURL:"images/Gallery/3.jpg", header: "Square", subheader: "Tech Talks"},
       {imageURL:"images/Gallery/4.jpg", header: "Mozilla", subheader: "Tech Talks"},
       {imageURL:"images/Gallery/5.jpg", header: "Mozilla", subheader: "Tech Talks"},
-      {imageURL:"images/Gallery/6.jpg", header: "uWaterloo PMs", subheader: "Information Sessions"},
+      {imageURL:"images/Gallery/6.jpg", header: "PM talk", subheader: "Information Sessions"},
       {imageURL:"images/Gallery/8.jpg", header: "Club Photo", subheader: "Information Sessions"},
       {imageURL:"images/Gallery/13.jpg", header: "Vidyard", subheader: "Innovation Trek"},
       {imageURL:"images/Gallery/11.jpg", header: "Wellframe", subheader: "Tech Talks"},
