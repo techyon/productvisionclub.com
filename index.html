@@ -555,7 +555,7 @@ founders from industry.  Our mission is to <span class="highlight">inspire stude
    <div  id="filters" class="sixteen columns">
 
       <ul class="clearfix">
-      <!--   <li><a href="#" data-filter="*" class="active"><h3>All</h3></a></li>
+      <!---   <li><a href="#" data-filter="*" class="active"><h3>All</h3></a></li>
         <li><a href="#" data-filter=".talk"><h3>Tech Talks</h3></a></li>
         <li><a href="#" data-filter=".trek"><h3>Innovation Trek</h3></a></li>
         <li><a href="#" data-filter=".sesssions"><h3>Information Sessions</h3></a></li> -->
@@ -569,23 +569,23 @@ founders from industry.  Our mission is to <span class="highlight">inspire stude
    <!-- START PORTFOLIO WRAP -->
    <div id="portfolio-wrap">
     <!-- START PORTFOLIO ITEM -->
-    	<div ng-repeat="portfolio in portfolios">
-    		<div class="portfolio-item one-third column" ng-class="portfoliosClass($index);">
-    			<div class="portfolio">
-    				<a class="portfolio-image">
-    					<img ng-src="{{portfolio.imageURL}}" alt="Portfolio {{$index+1}}">
-    					  <div class="portfolio-overlay">                
-		                    <div class="thumb-info">                
-		                      <h3>{{portfolio.header}}</h3><!-- OVERLAY TITLE -->  
-		                      <p class="portfolio-tags">{{portfolio.subheader}}</p><!-- END PORTFOLIO TAGS -->  
-		                      <!--<i class="icon-picture"></i><!--OVERLAY ICON -->
-		                    </div>                
-		                </div><!-- END PORTFOLIO OVERLAY --> 
-    				</a>
-    			</div>
-    		</div>
-    	</div>
-  </div>
+      <div ng-repeat="portfolio in portfolios">
+        <div class="portfolio-item one-third column" ng-class="portfoliosClass($index);">
+          <div class="portfolio">
+            <a href = "#!projects/project-{{$index+1}}.html" class="portfolio-image">
+              <img ng-src="{{portfolio.imageURL}}" alt="Portfolio {{$index+1}}">
+                <div class="portfolio-overlay">                
+                        <div class="thumb-info">                
+                          <h3>{{portfolio.header}}</h3><!-- OVERLAY TITLE -->  
+                          <p class="portfolio-tags">{{portfolio.subheader}}</p><!-- END PORTFOLIO TAGS -->  
+                          <!--<i class="icon-picture"></i><!--OVERLAY ICON -->
+                        </div>                
+                    </div><!-- END PORTFOLIO OVERLAY --> 
+            </a>
+          </div>
+        </div>
+        </div>
+        </div>
     <!-- END PORTFOLIO ITEM -->
     </div><!-- End portfolio Section -->
 
