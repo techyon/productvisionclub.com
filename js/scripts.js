@@ -443,7 +443,7 @@ function initializePortfolio() {
 			if(!ajaxLoading) {				
 	            ajaxLoading = true;
 								
-				projectContainer.load( url +' div#ajaxpage', function(xhr, statusText, request){
+				projectContainer.load( url + 'div#ajaxpage', function(xhr, statusText, request){
 																   
 						if(statusText == "success"){				
 								
