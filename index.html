@@ -571,7 +571,7 @@ founders from industry.  Our mission is to <span class="highlight">inspire stude
    <div id="portfolio-wrap" class="isotope">
     <!-- START PORTFOLIO ITEM -->
       <div ng-repeat="portfolio in portfolios">
-        <div class="portfolio-item one-third column design videography photography web branding isotope-item" ng-class="portfoliosClass($index);">
+        <div class="portfolio-item one-third column" ng-class="portfoliosClass($index);">
           <div class="portfolio">
             <a href = "#!projects/project-{{$index+1}}.html" class="portfolio-image">
               <img ng-src="{{portfolio.imageURL}}" alt="Portfolio {{$index+1}}">
