@@ -26,6 +26,11 @@
 	border: 3px solid;
 }
 
+/* Why we started */
+.started {
+	margin-top: 40px;
+}
+
 /* Our Vision */
 
 .subtitle{
@@ -36,6 +41,14 @@
 /* What we do */
 .container .one-third.column.what-we-do {
 	width: 220px;
+}
+
+.row.what-do {
+	margin-bottom: 60px;
+}
+
+.what-we-do {
+	margin-top: 40px;
 }
 
 .what-title {
@@ -166,7 +179,7 @@ a.clients {
 .sixteen.columns.subscribe {
 	text-align: center;
 	height: 170px;
-	background-color: #0D808E;
+	background-color: #A57D55;
 	margin-top: 80px;
 }
 
