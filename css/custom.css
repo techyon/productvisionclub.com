@@ -42,6 +42,46 @@
 	font-size: 25px;
 }
 
+.tech {
+	padding: 16px 0px 16px;
+}
+
+.educational {
+	padding: 3px 0px 3px;
+	font-size: 24px;
+}
+
+.styled-list.education {
+	margin-top: 27px;
+}
+
+.education-why {
+	margin-top: 48px;
+}
+
+.service-box ul .education-li {
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+
+.pvcchallenge {
+	font-size: 21px;
+	padding: 8px 0px 8px;
+}
+
+.styled-list.product-vision {
+	margin-top: 20px;
+}
+
+.service-box ul .product-li {
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+
+.innovation {
+	font-size: 26px;
+}
+
 /* Our Mission */
 
 .title.mission {
@@ -66,6 +106,10 @@
 
 .contact-box {
 	margin-top: -25px;
+}
+
+.parallax.contact {
+	margin-bottom: 40px;
 }
 
 /* PVC logo */
@@ -122,12 +166,13 @@ a.clients {
 .sixteen.columns.subscribe {
 	text-align: center;
 	height: 170px;
-	background-color: #F5F5F5;
+	background-color: #0D808E;
 	margin-top: 80px;
 }
 
 .list {
 	padding-top: 35px;
+	color: white;
 }
 
 .close{
@@ -173,6 +218,12 @@ h2.small-address {
 	font-size: 250%;
 }
 
+/*.sixteen.columns.email {
+	height: 300px;
+	background-color: #003249;
+	text-align: center;
+}*/
+
 /*Font change*/
 body,.home-logo-text a{
 	font-family: 'Roboto Slab', serif;
@@ -216,3 +267,9 @@ h3.ng-binding {
 .contact-us {
 	margin-top: 20px;
 }
+
+/* Copyright */
+.credits {
+	text-align: center;
+}
+
