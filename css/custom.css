@@ -10,8 +10,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
-
 }
 
 #logo{
@@ -40,7 +38,7 @@
 
 /* What we do */
 .container .one-third.column.what-we-do {
-	width: 220px;
+	width: 300px;
 }
 
 .row.what-do {
@@ -149,6 +147,7 @@
 	display: inline;
 	padding: 50px 0 20px;
 }
+
 
 .companies {
 	padding-top: 20px;
@@ -286,3 +285,20 @@ h3.ng-binding {
 	text-align: center;
 }
 
+/* Gallery */
+.project-media.mozilla {
+	margin-top: 100px;
+}
+
+/* Verticals */
+a.apply {
+	color: #515A5F;
+}
+
+a.apply:hover {
+	color: white;
+}
+
+.apply-vertical {
+	margin-top: 20px;
+}
