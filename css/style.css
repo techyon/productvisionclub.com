@@ -98,7 +98,7 @@ hr {
 	border: solid #eeeeee;
 	border-width: 1px 0 0;
 	clear: both;
-	margin: 10px 0 30px;
+	margin: 30px 0 0px;
 	height: 0;
 }
 pre {
@@ -614,7 +614,7 @@ p.quote {
 --------------------------------------------------------*/
 	
 .bg2 {
-	background-image: url(../images/parallax/parallax2.jpg);
+	background-image: url(../images/parallax/parallax1.jpg);
 }
 .twitter-slider {
 	width: 85%;
@@ -682,7 +682,7 @@ p.quote {
 --------------------------------------------------------*/
 
 .bg3 {
-	background-image: url(../images/parallax/parallax3.jpg);
+	background-image: url(../images/parallax/parallax1.jpg);
 }
 .testimonial-slider {
 	position: relative;
@@ -730,7 +730,7 @@ p.quote {
 --------------------------------------------------------*/
 
 .bg4 {
-	background-image: url(../images/parallax/parallax4.jpg);
+	background-image: url(../images/parallax/parallax1.jpg);
 }
 /*--------------------------------------------------------
 /* COLOR BLOCK SECTION
@@ -769,7 +769,7 @@ p.quote {
 --------------------------------------------------------*/
 
 .page {
-	padding: 60px 0;
+	padding: 50px 0 10px;
 	position: relative;
 	background: #ffffff;
 	text-align:center;
@@ -838,7 +838,7 @@ p.quote {
 	background: radial-gradient(center center, circle cover, #FFD600 0%, #E2BE01 100%);
 }
 .home-parallax {
-	background: url("../images/background.png") fixed;
+	background: url(../images/parallax/parallax1.jpg) fixed;
 	background-size: cover;
 	background-position: center top;
 	background-color: #FFD600;
@@ -1515,10 +1515,10 @@ p.quote {
 .contact-box {
 	width: 100%;
 	text-align: center;
-	padding: 45px 0px 60px;
+	padding: 0px 0px 0px;
 }
 .contact-details {
-	width: 70%;
+	width: 100%;
 	padding: 5px 0;
 	margin: 0 auto 10px;
 }

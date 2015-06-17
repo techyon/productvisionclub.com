@@ -323,7 +323,8 @@ nav .container {
 .parallax,  
 .parallax .parallax-content,  
 .parallax .overlay {
-	height: 580px;
+	height: 350px;
+	margin-bottom: -30px;
 }
 
 #project-navigation {
