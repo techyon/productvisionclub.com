@@ -302,3 +302,9 @@ a.apply:hover {
 .apply-vertical {
 	margin-top: 20px;
 }
+
+
+.home-text-wrapper{
+	display: block;
+	padding: 150px;
+}
