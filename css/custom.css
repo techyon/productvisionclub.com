@@ -1,7 +1,13 @@
 /* Landing Page */
 
-#home{
+@media (min-width: 700px) {
+	.home-text-wrapper{
+		display: block;
+		padding: 175px;
+	}
+}
 
+#home{
 	width: 100%;
 	background: url("../images/background.png");
     -webkit-background-size: cover;
@@ -301,10 +307,4 @@ a.apply:hover {
 
 .apply-vertical {
 	margin-top: 20px;
-}
-
-
-.home-text-wrapper{
-	display: block;
-	padding: 150px;
 }
