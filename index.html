@@ -606,7 +606,8 @@
       <div ng-repeat="portfolio in portfolios">
         <div class="portfolio-item one-third column" ng-class="portfoliosClass($index);">
           <div class="portfolio">
-            <!--<a href = "#!projects/project-{{$index+1}}.html"--><a class="portfolio-image">
+
+            <a href = "#!{{portfolio.link}}" class="portfolio-image" ><!-- <a  href = "#!projects/project-2.html"> -->
               <img ng-src="{{portfolio.imageURL}}" alt="Portfolio {{$index+1}}">
                 <div class="portfolio-overlay">                
                         <div class="thumb-info">                

@@ -44,25 +44,25 @@
     {name:'Umesh Khanna', imageURL:"images/team/umesh.jpg",role:"Director of Tech Talks",program:"1B Electrical Engineering", email:"umeshkumarkhanna@hotmail.com", LinkedIn:"https://ca.linkedin.com/in/umeshkhanna", description:""}
     ];
     $scope.portfolios = [
-      {imageURL:"images/Gallery/1.jpg", header: "Quora", subheader: "Tech Talks"},
-      {imageURL:"images/Gallery/2.jpg", header: "Square", subheader: "Tech Talks"},
-      {imageURL:"images/Gallery/3.jpg", header: "Square", subheader: "Tech Talks"},
-      {imageURL:"images/Gallery/4.jpg", header: "Mozilla", subheader: "Tech Talks"},
-      {imageURL:"images/Gallery/5.jpg", header: "Mozilla", subheader: "Tech Talks"},
-      {imageURL:"images/Gallery/6.jpg", header: "PM talk", subheader: "Information Sessions"},
-      {imageURL:"images/Gallery/8.jpg", header: "Club Photo", subheader: "Information Sessions"},
-      {imageURL:"images/Gallery/13.jpg", header: "Vidyard", subheader: "Innovation Trek"},
-      {imageURL:"images/Gallery/11.jpg", header: "Wellframe", subheader: "Tech Talks"},
-      {imageURL:"images/Gallery/12.jpg", header: "Wellframe", subheader: "Tech Talks"},
-      {imageURL:"images/Gallery/10.jpg", header: "Interview Prep", subheader: "Information Sessions"},
-      {imageURL:"images/Gallery/14.jpg", header: "Google", subheader: "Innovation Trek"},
-      {imageURL:"images/Gallery/9.jpg", header: "Interview Prep", subheader: "Information Sessions"},
-      {imageURL:"images/Gallery/15.jpg", header: "BlackBerry", subheader: "Innovation Trek"},
-      {imageURL:"images/Gallery/16.jpg", header: "BlackBerry", subheader: "Innovation Trek"},
+      {imageURL:"images/Gallery/1.jpg", header: "Quora", subheader: "Tech Talks", link:"projects/project-1.html"},
+      {imageURL:"images/Gallery/2.jpg", header: "Square", subheader: "Tech Talks" ,link:"projects/project-2.html"},
+      {imageURL:"images/Gallery/3.jpg", header: "Square", subheader: "Tech Talks" ,link:"projects/project-2.html"},
+      {imageURL:"images/Gallery/4.jpg", header: "Mozilla", subheader: "Tech Talks",link:"projects/project-3.html"},
+      {imageURL:"images/Gallery/5.jpg", header: "Mozilla", subheader: "Tech Talks",link:"projects/project-3.html"},
+      {imageURL:"images/Gallery/6.jpg", header: "PM talk", subheader: "Information Sessions",link:"projects/project-7.html"},
+      {imageURL:"images/Gallery/8.jpg", header: "Club Photo", subheader: "Information Sessions",link:"projects/project-7.html"},
+      {imageURL:"images/Gallery/13.jpg", header: "Vidyard", subheader: "Innovation Trek",link:"projects/project-8.html"},
+      {imageURL:"images/Gallery/11.jpg", header: "Wellframe", subheader: "Tech Talks",link:"projects/project-9.html"},
+      {imageURL:"images/Gallery/12.jpg", header: "Wellframe", subheader: "Tech Talks",link:"projects/project-9.html"},
+      {imageURL:"images/Gallery/10.jpg", header: "Interview Prep", subheader: "Information Sessions",link:"projects/project-4.html"},
+      {imageURL:"images/Gallery/14.jpg", header: "Google", subheader: "Innovation Trek",link:"projects/project-5.html"},
+      {imageURL:"images/Gallery/9.jpg", header: "Interview Prep", subheader: "Information Sessions",link:"projects/project-4.html"},
+      {imageURL:"images/Gallery/15.jpg", header: "BlackBerry", subheader: "Innovation Trek",link:"projects/project-6.html"},
+      {imageURL:"images/Gallery/16.jpg", header: "BlackBerry", subheader: "Innovation Trek",link:"projects/project-6.html"},
     ];
 
     $scope.portfoliosClass = function (index){
-      console.log($scope.portfolios[index].subheader);
+      //console.log($scope.portfolios[index].subheader);
 
       if($scope.portfolios[index].subheader=="Information Sessions") return "sessions";
       if($scope.portfolios[index].subheader=="Tech Talks") return "talk";
