@@ -184,7 +184,7 @@ a.clients {
 .sixteen.columns.subscribe {
 	text-align: center;
 	height: 170px;
-	background-color: #A57D55;
+	background-color: #711F1E;
 	margin-top: 80px;
 }
 
@@ -307,4 +307,19 @@ a.apply:hover {
 
 .apply-vertical {
 	margin-top: 20px;
+}
+
+
+/* Branding color Backgrounds*/
+.bg-secondary{
+	background-color: #711F1E;
+}
+.bg-secondary2{
+	background-color: #F2F2F2;
+}
+.bg-accent{
+	background-color: #BF6A6A;
+}
+.bg-accent2{
+	background-color: #FFDCDC;
 }
