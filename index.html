@@ -374,6 +374,31 @@
                </div> <!-- END service-box -->
       </div> <!-- END ONETHIRD COLUMN -->
 
+      <div class="one-third column what-we-do">
+              <!-- START service-box -->
+        <div class="service-box">
+                 <!-- START ICON -->
+                   <div>
+                      <h3 class="innovation">More Coming</h3><!-- END service-box TITLE -->
+                      <i class="service-icon icon-plus"></i>
+                   </div>
+                 <!-- END ICON -->
+
+                <!-- START service-box DESCIPTION -->
+                <div class="service-description">
+                  <p></p><!-- END service-box DESCRIPTION -->
+                </div>
+                <!-- START service-box DESCIPTION -->
+                
+                <ul class="styled-list">
+                 <li>Our vision is BIG, we want to get University of Waterloo's name out to the world</li>
+                 <li>Stay tuned!</li>
+                </ul>
+
+               </div> <!-- END service-box -->
+      </div> <!-- END ONETHIRD COLUMN -->
+
+
      </div>  <!-- END ROW -->
         </div> <!-- END CONTAINER -->
         </div><!-- End ID -->
@@ -492,7 +517,7 @@
 
       <!-- START PARALLAX SECTION -->
   <div id="parallax3" class="parallax">
-        <div class="bg2 parallax-bg"></div><!-- END PARALLAX BACKGROUND -->
+        <div class="bg-accent parallax-bg"></div><!-- END PARALLAX BACKGROUND -->
         <div class="overlay"></div><!-- END PATTERN OVERLAY -->
         <div class="container clearfix">
                 <div class="parallax-content">
@@ -520,7 +545,7 @@
         <input type="button" onClick="window.open('http://eepurl.com/bnEPV1')" value="subscribe">
       </form> -->
   <!-- END PARALLAX SECTION -->
-      <div class="sixteen columns subscribe">
+      <div class="sixteen columns subscribe bg-accent2">
         <h3 class="list">Join our mailing list to stay updated for our next events</h3><a href="http://eepurl.com/bnEPV1" class="button scroll-to" target="_blank">Subscribe</a>
       </div>
 
@@ -607,7 +632,8 @@
       <div ng-repeat="portfolio in portfolios">
         <div class="portfolio-item one-third column" ng-class="portfoliosClass($index);">
           <div class="portfolio">
-            <!--<a href = "#!projects/project-{{$index+1}}.html"--><a class="portfolio-image">
+
+            <a href = "#!{{portfolio.link}}" class="portfolio-image" ><!-- <a  href = "#!projects/project-2.html"> -->
               <img ng-src="{{portfolio.imageURL}}" alt="Portfolio {{$index+1}}">
                 <div class="portfolio-overlay">                
                         <div class="thumb-info">                
@@ -713,7 +739,7 @@
 
   <!-- START PARALLAX SECTION -->
     <div id="parallax4" class="parallax contact">
-      <div class="bg4 parallax-bg"></div><!-- END PARALLAX BACKGROUND -->
+      <div class="bg-secondary parallax-bg"></div><!-- END PARALLAX BACKGROUND -->
       <div class="overlay"></div><!-- END PATTERN OVERLAY -->
       <div class="container clearfix">
         <div class="parallax-content">
