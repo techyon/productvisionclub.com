@@ -67,7 +67,7 @@
       if($scope.portfolios[index].subheader=="Information Sessions") return "sessions";
       if($scope.portfolios[index].subheader=="Tech Talks") return "talk";
       if($scope.portfolios[index].subheader=="Innovation Trek") return "trek";
-      
+      console.log($scope.portfolios[index].subheader);
       
     }
   }]);
