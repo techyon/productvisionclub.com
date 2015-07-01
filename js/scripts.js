@@ -204,6 +204,7 @@ $(function() {
 		$('#filters a').removeClass('active');
 		$(this).addClass('active');
 		var selector = $(this).attr('data-filter');
+		console.log($(selector));
 	  	container.isotope({ filter: selector });
         setProjects();		
 	  	return false;
