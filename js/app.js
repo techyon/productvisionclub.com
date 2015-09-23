@@ -13,7 +13,7 @@
     {name:'Kaivalya Gandhi', imageURL:"images/team/kaivalya.jpg",role:"Co-President",program:"2B Software Engineering", email:"kaivalya.gandhi@gmail.com", LinkedIn:"https://www.linkedin.com/in/kaivalyagandhi"},
     
     {name:'Helen Huang', imageURL:"images/team/helen.jpg",role:"Co-President",program:"3B Science & Business", email:"helenlyhuang@gmail.com", LinkedIn:"https://ca.linkedin.com/in/helenlyhuang", 
-    description:""},
+    description:"Aside from my actual responsibilities and club goals in wanting to grow the PVC presence and credibility, I enjoy playing computer games, dancing, and being lazy in general"},
     
     {name:'Sammie Bae', imageURL:"images/team/sammie.jpg",role:"Technology Co-Director",program:"2A System Design Engineering", email:"baesammie@gmail.com", LinkedIn:"https://ca.linkedin.com/in/sammiebae", 
     description:"sammiebae.me"},
