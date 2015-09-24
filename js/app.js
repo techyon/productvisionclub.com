@@ -8,40 +8,24 @@
     {name:'Noah Maccalum', imageURL:"images/team/noah.jpg",role:"Co-Founder",job:"Microsoft: Product Manager",program:"Nanotechnology Engineering 2015", email:"noahmacca@gmail.com", LinkedIn:"https://www.linkedin.com/pub/noah-maccallum/31/949/227",
      description:"Noah has done numerous co-ops at established instiutions including MIT and Harvard. He also has written numerous scientific papers. After working at Microsoft as product manager, his interest in tech grew and he is now a full-time product manager at Microsoft"},
     
-    {name:'Dan Li', imageURL:"images/team/dan.jpg",role:"Outreach Advisor",job:"LinkedIn: Associate Product Manager",program:"Computer Science 2015", email:"", LinkedIn:"https://www.linkedin.com/pub/dan-li/35/a2b/5a9", description:"Dan has done co-ops at top tech companies including Bloomberg, Pinterest, Twitter, and Microsoft. He was also accepted to Next36, prestige program for budding entrepenuers. He is going to work at LinkedIn as full-time product manager"},
-    
-    {name:'Kartik Talwar', imageURL:"images/team/kartik.jpg",role:"Advisor",program:"4A Physics", email:"", LinkedIn:"https://www.linkedin.com/in/kartiktalwar", description:""},
+    {name:'Kartik Talwar', imageURL:"images/team/kartik.jpg",role:"Advisor",program:"4A Physics", email:"", LinkedIn:"https://www.linkedin.com/in/kartiktalwar", description:"Co-Founder of Hack the North and Waterloo API developer as well as various internships in the valley, Kartik is an experienced developer and has track record of getting stuff done"},
     
     {name:'Kaivalya Gandhi', imageURL:"images/team/kaivalya.jpg",role:"Co-President",program:"2B Software Engineering", email:"kaivalya.gandhi@gmail.com", LinkedIn:"https://www.linkedin.com/in/kaivalyagandhi"},
     
-    {name:'James Lindsay', imageURL:"images/team/james.png",role:"Co-President",program:"3B IT Management", email:"jamesleelindsay@gmail.com", LinkedIn:"https://www.linkedin.com/in/jamesbrandonlindsay", description:"An entrepreneur and visionary thinker. Currently running a startup company and passionate for creating unique products and is the Co-president of PVC with the goal to push boundaries and globalize the club."},
+    {name:'Helen Huang', imageURL:"images/team/helen.jpg",role:"Co-President",program:"3B Science & Business", email:"helenlyhuang@gmail.com", LinkedIn:"https://ca.linkedin.com/in/helenlyhuang", 
+    description:"Aside from my actual responsibilities and club goals in wanting to grow the PVC presence and credibility, I enjoy playing computer games, dancing, and being lazy in general"},
     
-    {name:'Sammie Bae', imageURL:"images/team/sammie.jpg",role:"Technology Co-Director",program:"1B System Design Engineering", email:"baesammie@gmail.com", LinkedIn:"https://ca.linkedin.com/in/sammiebae", description:"I get excited about technology, data, and innovation."},
+    {name:'Sammie Bae', imageURL:"images/team/sammie.jpg",role:"Technology Co-Director",program:"2A System Design Engineering", email:"baesammie@gmail.com", LinkedIn:"https://ca.linkedin.com/in/sammiebae", 
+    description:"sammiebae.me"},
     
-    {name:'Reginald Suh', imageURL:"images/team/regi.jpg",role:"Technology Co-Director",program:"1B Computer Science", email:"rsuh@uwaterloo.ca", LinkedIn:"https://ca.linkedin.com/in/reginaldsuh"},
+    {name:'Reginald Suh', imageURL:"images/team/regi.jpg",role:"Technology Co-Director",program:"2A Computer Science", email:"rsuh@uwaterloo.ca", LinkedIn:"https://ca.linkedin.com/in/reginaldsuh"},
     
     {name:'Simran Jassal', imageURL:"images/team/simran.jpg",role:"CO-DIRECTOR OF PRODUCT VISION CHALLENGE & TECH",program:"1B System Design Engineering", email:"simran.jassal@hotmail.com", LinkedIn:"https://ca.linkedin.com/in/simranjassal"},
     
-    {name:'Mike Hennessey', imageURL:"images/team/mike.jpg",role:"CONTENT & MARKETING CO-DIRECTOR",program:"3A Global Business & Digital Arts", email:"mikerjhen@gmail.com", LinkedIn:"https://ca.linkedin.com/in/mrjhenne", 
-    description:"A media mastermind with a focus on brand agility and effective communication. Mike is driven to develop unique marketing strategies that reflect excellence and expand user engagement."},
+    {name:'Pedja Ristic', imageURL:"images/team/pedja.jpg",role:"MEDIA DIRECTOR",program:"Global Business & Digital Arts", email:"peda.ristic@live.ca", LinkedIn:"https://ca.linkedin.com/in/pedjaristic", 
+    description:"A Ballroom dancing tech fiend with a fetish for programming and design. Pedja’s aim is to paint the walls of user interaction with the colour of quality."}
     
-    {name:'Kaitlyn Yong', imageURL:"images/team/kaitlyn.jpg",role:"CO-DIRECTOR OF THE INNOVATION TREK",program:"1B Computer Science", email:"kaitlyn.taylor.yong@gmail.com", LinkedIn:"https://ca.linkedin.com/in/kaitlynyong", 
-    description:"Thrilled about deploying her skills, positive attitude, and strong work ethic into PVC with the hopes to share the same trek experience she received last term."},
-    //{name:'Shalin Upadhyay', imageURL:"images/team/regi.svg",role:"CO-DIRECTOR OF PRODUCT VISION CHALLENGE",program:"2A Computer Science", email:"", LinkedIn:"https://ca.linkedin.com/in/ushalin", description:"Passionate about software engineering, low-level hardware and space exploration. And is excited to apply his knowledge of technology and technological world to the club, and helping it grow."},
-    {name:'Meram Riad', imageURL:"images/team/meram.jpg",role:"EXECUTIVE LEAD FOR THE PRODUCT VISION CHALLENGE",program:"2A Science and Business", email:"riad.meram@gmail.com", LinkedIn:"https://ca.linkedin.com/pub/meram-riad/b0/a77/5bb"},
     
-    {name:'Jennifer Shen', imageURL:"images/team/jennifer.png",role:"OUTREACH DIRECTOR",program:"2B Computer Science", email:"jennifershen26@gmail.com", LinkedIn:"https://ca.linkedin.com/pub/jennifer-shen/96/9ba/78a", description:"Excited to learn more about the ins and outs of Product Management."},
-    
-    {name:'Pedja Ristic', imageURL:"images/team/pedja.jpg",role:"MEDIA DIRECTOR",program:"Global Business & Digital Arts", email:"peda.ristic@live.ca", LinkedIn:"https://ca.linkedin.com/in/pedjaristic", description:"A Ballroom dancing tech fiend with a fetish for programming and design. Pedja’s aim is to paint the walls of user interaction with the colour of quality."},
-    
-    {name:'Eric Chung', imageURL:"images/team/eric.png",role:"GRAPHICS & DESIGN DIRECTOR",program:"Global Business & Digital Arts", email:"ew2chung@outlook.com", LinkedIn:"https://ca.linkedin.com/in/ericchungdesign", description:"Passionate about design and creating a more user-friendly world. Looking forward to connecting with like-minded people and growing alongside this promising team."},
-    
-    {name: 'Akash Sant', imageURL:"images/team/akash.png",role:"Co-Director",program:"2B Software Engineering", email:"acsant@uwaterloo.ca", LinkedIn:"https://ca.linkedin.com/in/acsant", description:"Akash is excited to further develop his leadership and networking skills to empower students with exclusive opportunities to interact with management from top companies and through leaders across North America to nurture some of Waterloo's best future product managers and entrepreneurs."},
-    
-    {name:'Jeron Chan', imageURL:"images/team/jeron.jpg",role:"Content & Marketing",program:"2B Environment and Business", email:"jeron.chan@gmail.com", LinkedIn:"https://ca.linkedin.com/in/jeronchan", description:"Jeron is passionate about meeting new people and sharing experiences. What gives him immense joy is to be a part of a unique experience from start to finish. The reason why he’s part of the Product Vision Club is to meet people with similar interests and mindset."},
-    // {name:'Ahilan Suriyakumaran', imageURL:"#",role:"Technology Co-Director", email:"", LinkedIn:"https://ca.linkedin.com/pub/ahilan-suriyakumaran/58/799/931", description:"Keen interest in learning anything new, but even more interested in learning new technology. Excited about the growth of the club and being a part of a growing network and community in Waterloo."},
-    
-    {name:'Umesh Khanna', imageURL:"images/team/umesh.jpg",role:"Director of Tech Talks",program:"1B Electrical Engineering", email:"umeshkumarkhanna@hotmail.com", LinkedIn:"https://ca.linkedin.com/in/umeshkhanna", description:""}
     ];
     $scope.portfolios = [
       {imageURL:"images/Gallery/1.jpg", header: "Quora", subheader: "Tech Talks", link:"projects/project-1.html"},
@@ -54,11 +38,12 @@
       {imageURL:"images/Gallery/13.jpg", header: "Vidyard", subheader: "Innovation Trek",link:"projects/project-8.html"},
       {imageURL:"images/Gallery/11.jpg", header: "Wellframe", subheader: "Tech Talks",link:"projects/project-9.html"},
       {imageURL:"images/Gallery/12.jpg", header: "Wellframe", subheader: "Tech Talks",link:"projects/project-9.html"},
-      {imageURL:"images/Gallery/10.jpg", header: "Interview Prep", subheader: "Information Sessions",link:"projects/project-4.html"},
+      {imageURL:"images/Gallery/10.jpg", header: "Interview", subheader: "Information Sessions",link:"projects/project-4.html"},
       {imageURL:"images/Gallery/14.jpg", header: "Google", subheader: "Innovation Trek",link:"projects/project-5.html"},
-      {imageURL:"images/Gallery/9.jpg", header: "Interview Prep", subheader: "Information Sessions",link:"projects/project-4.html"},
+      {imageURL:"images/Gallery/9.jpg", header: "Interview", subheader: "Information Sessions",link:"projects/project-4.html"},
       {imageURL:"images/Gallery/15.jpg", header: "BlackBerry", subheader: "Innovation Trek",link:"projects/project-6.html"},
       {imageURL:"images/Gallery/16.jpg", header: "BlackBerry", subheader: "Innovation Trek",link:"projects/project-6.html"},
+
     ];
 
     $scope.portfoliosClass = function (index){
