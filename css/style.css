@@ -209,7 +209,7 @@ body #load {
 }
 h1 {
 	font-family: 'BebasNeueRegular', sans-serif;
-	font-size: 80px;
+	font-size: 40px;
 	text-transform: uppercase;
 	position: relative;
 	margin-bottom: 0px;
@@ -860,7 +860,7 @@ p.quote {
 }
 .home-logo-text a {
 	font-family: 'BebasNeueRegular', sans-serif;
-	font-size: 100px;
+	font-size: 50px;
 	text-transform: uppercase;
 	position: relative;
 	margin-bottom: 0px;
