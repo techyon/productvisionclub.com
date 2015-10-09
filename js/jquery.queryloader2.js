@@ -100,7 +100,7 @@
 
         if (qLimages.length > 0) {
             createPreloadContainer();
-            createOverlayLoader();
+            //createOverlayLoader();
         } else {
             //no images == instant exit
             destroyQueryLoader();
