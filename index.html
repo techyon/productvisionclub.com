@@ -2,9 +2,9 @@
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--><html class="no-js" ng-app="myApp" lang="de" ng-controller="MemberCtrl">  <!--<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" ng-app="PVC" lang="de" >  <!--<![endif]-->
 <head>
-
   <!-- META DATA -->
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
   <meta charset="UTF-8">
@@ -40,12 +40,15 @@
   <!--[if lt IE 9]>
   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
+  <!-- Angular -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+  <script src="js/app.js"></script>
+  
+  
 </head>
-
-<body class="onepage" data-spy="scroll" data-target=".navigation">
+<body class="onepage" data-spy="scroll" data-target=".navigation" ng-controller="MemberCtrl">
  <div id="load"></div>
-
-
     <!-- START PAGE WRAP -->
     <div class="page-wrap">
 
@@ -95,13 +98,13 @@
               <!-- START NAVIGATION MENU ITEMS -->
               <ul class="main-menu large nav" id="nav">
                   <li><a href="#home">Home</a></li>
-                  <li><a href="#about">About</a></li>
-                  <li><a href="#events">Events</a></li>
-                  <li><a href="#company-many">Companies</a></li>
+             <!--      <li><a href="">About</a></li>
+                  <li><a href="">Events</a></li>
+                  <li><a href="">Companies</a></li> -->
                   <!-- <li><a href="#parallax3">Testimonials</a></li> -->
-                  <li><a href="#gallery">Gallery</a></li>
-                  <li><a href="#team">Team</a></li>
-                  <li><a href="#contactFooter">Contact</a></li>
+                  <li><a href="#/gallery">Gallery</a></li>
+                  <li><a href="#/team">Team</a></li>
+         <!--          <li><a href="#contactFooter">Contact</a></li> -->
                   <li><a href="https://medium.com/@ProductVision" target="_blank">Blog</a></li>
                   <!-- <li><a href="#portfolio">Portfolio</a></li>
                   <li><a href="shortcodes.html">Shortcodes</a></li>
@@ -114,403 +117,7 @@
     </nav>
     <!-- END NAVIGATION -->
 
-
-  <!-- START ABOUT US SECTION -->
-  <div id="about" class="page">
-
-    <div class="container">
-           <div class="row">
-      <div class="sixteen columns">
-              <!-- START TITLE -->
-        <div class="title">
-          <!-- <h1>About</h1> -->
-          <h1>Our Vision</h1>
-                  <div class="subtitle">
-                      Our vision is to  <span class="highlight">build the next generation of student leaders</span> to tackle the world's challenges, create innovative solutions and make positive impact using technology.</p>
-                  </div><!-- END SUBTITLE -->
-                </div><!-- END TITLE -->
-      </div><!-- END SIXTEEN COLUMNS -->
-           </div><!-- END ROW -->
-          </div><!-- END CONTAINER -->
-
-<div class="fullwidth grey">
-        <div class="container">
-        <div class="fancy-header2">
-        <div class="title mission">
-           <h1>Our Mission</h1>
-<!--            <div class="subtitle">
-              Our mission is to foster product perspective, develop entrepreneurial mindsets and inspire big thinking through interactions with PMs, executives, founders and thought leaders from the industry by hosting workshops, talks and events for our community of visionaries.
-           </div> -->
-        </div>
-
-         <div class="row">
-                <div class="one-third column">
-                  <div class="service-features">
-                  <div class="img-container">
-                    <img src="images/icons/icons/paperplane.png" alt="Service Features">
-                  </div>
-                    <h3>Foster Leadership</h3>
-                    <!-- <p> Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit at metus.</p> -->
-                  </div>
-                </div><!-- END ONE THIRD COLUMN -->
-
-                <div class="one-third column">
-                  <div class="service-features">
-                  <div class="img-container">
-                    <img src="images/icons/icons/star.png" alt="Service Features">
-                  </div>
-
-                    <h3>Gain Product Perspective</h3>
-                <!--     <p> Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit at metus.</p> -->
-                  </div>
-
-                </div><!-- END ONE THIRD COLUMNS -->
-
-                <div class="one-third column">
-                  <div class="service-features">
-                  <div class="img-container">
-                    <img src="images/icons/icons/bulb.png" alt="Service Features">
-                  </div>
-                    <h3>Develop an Entrepreneurial Mindset</h3>
-                    <!-- <p> Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit at metus.</p> -->
-                  </div>
-                </div><!-- END ONE THIRD COLUMNS -->
-                </div>
-
-              <div class="subtitle">
-                <p class="no-text-transform">We want to foster leadership, stimulate product perspective and inspire big thinking, entrepreneurial mindsets through interactions with some of the biggest players and thought leaders in the industry by hosting workshops, talks and events for our community of visionaries.<p>
-              </p>
-
-
-    </div><!-- END CONTAINER -->
-        </div>
-        </div>
-
-
-
-    </div>
-    <!-- End ABOUT US SECTION -->
-
-    <div class="container">
-           <div class="row">
-      <div class="sixteen columns">
-              <!-- START TITLE -->
-        <div class="title">
-          <!-- <h1>About</h1> -->
-          <h1 class="started">How We Started</h1>
-                  <div class="subtitle">
-                      <p class="no-text-transform"> <span class="highlight">The University of Waterloo has great infrastructure for</span> churning out top  <span class="highlight">technical talent</span>, <span class="highlight">however there is a gap</span> when it comes to looking at technology from a higher perspective - <span class="highlight"> in terms of societal and personal impact</span>. As budding PMs, entrepreneurs and technology enthusiasts, <span class="highlight">we wanted to explore the rationale behind what we should be build and why</span>. We wanted to figure out how to change the world, learn from the best in the process build a community of talented and passionate students who share our vision.</p>
-                  </div><!-- END SUBTITLE -->
-                </div><!-- END TITLE -->
-      </div><!-- END SIXTEEN COLUMNS -->
-           </div><!-- END ROW -->
-          </div><!-- END CONTAINER -->
-
-
-  <!-- START PARALLAX SECTION -->
-<!--  <div id="parallax1" class="parallax">
-    <div class="bg1 parallax-bg"></div>
-    <div class="overlay"></div>
-    <div class="container clearfix">
-      <div class="parallax-content">
-        <p class="quote"><i class="icon-quote-left"></i>Creativity is allowing yourself to make mistakes. Art is knowing which ones to keep.<i class="icon-quote-right"></i></p>
-        <div class="quote-author">-- Scott Adams --</div>
-      </div>
-    </div>
-  </div> -->
-   <!-- START SERVICES SECTION -->
-<div id="events">
-<div class="fullwidth grey">
- <div class="title events">
-  <h1 class="what-we-do">What We Do</h1>
- </div>
-    <div class="container clearfix">
-           <div class="row what-do">
-
-      <div class="one-third column what-we-do">
-              <!-- START service-box -->
-        <div class="service-box">
-                 <!-- START ICON -->
-                   <div>
-                      <h3 class="tech">Tech talks</h3><!-- END service-box TITLE -->
-                      <i class="service-icon icon-comments"></i>
-                   </div>
-                 <!-- END ICON -->
-
-                <!-- START service-box DESCIPTION -->
-                <div class="service-description">
-                   <!-- <p>Hear about product management (PM) internship experiences and lessons and learn how to prepare for interviews to land PM co-op or full-time placements</p> --><!-- END service-box DESCRIPTION -->
-                   <p>Hear about how it’s like to work as a PM/engineer in the industry. Interactive Q&A with our past speakers from top companies and successful start-ups</p>
-                </div>
-
-                    <h6>Why</h6>
-                  <ul class="styled-list">
-                    <li>To hear about how it's like to work as a PM in the industry</li>
-                    <li>To learn about speaker's past experiences and their journeys</li>
-                    <li>To receive general career advice</li>
-                    <li>To gain product perspectives and participate in interactive Q&A sessions</li>
-                  </ul>
-
-                <!-- START service-box DESCIPTION -->
-
-               </div> <!-- END service-box -->
-      </div> <!-- END ONETHIRD COLUMN -->
-
-      <div class="one-third column what-we-do">
-              <!-- START service-box -->
-        <div class="service-box">
-                 <!-- START ICON -->
-                   <div>
-                      <h6 class="educational">Educational Sessions</h6><!-- END service-box TITLE -->
-                      <i class="service-icon icon-laptop"></i>
-                   </div>
-                 <!-- END ICON -->
-
-                <!-- START service-box DESCIPTION -->
-                <div class="service-description">
-                   <!-- <p>Hear about product management (PM) internship experiences and lessons and learn how to prepare for interviews to land PM co-op or full-time placements</p> --><!-- END service-box DESCRIPTION -->
-                   <p>A chance to participate in sessions which are led by interns and full-time incoming PMs from Microsoft, Groupon, etc</p>
-                </div>
-
-                    <h6 class="education-why">Why</h6>
-                  <ul class="styled-list education">
-                    <li class="education-li">To hear about product management (PM) internship experiences and lessons </li>
-                    <li class="education-li">To learn how to prepare for PM interviews</li>
-                    <li class="education-li">To learn how to land PM co-op and full-time placements</li>
-                  </ul>
-
-                <!-- START service-box DESCIPTION -->
-
-               </div> <!-- END service-box -->
-      </div> <!-- END ONETHIRD COLUMN -->
-
-      <div class="one-third column what-we-do">
-              <!-- START service-box -->
-        <div class="service-box">
-                 <!-- START ICON -->
-                   <div>
-                      <h3 class="pvcchallenge">OnePM</h3><!-- END service-box TITLE -->
-                      <i class="service-icon icon-trophy"></i>
-                   </div>
-                 <!-- END ICON -->
-
-                <!-- START service-box DESCIPTION -->
-                <div class="service-description">
-                  <p>The product-focused hackathon to determine the one true PM!</p><!-- END service-box DESCRIPTION -->
-                </div>
-                <!-- START service-box DESCIPTION -->
-
-                <h6>Why</h6>
-                <ul class="styled-list product-vision">
-                  <li class="product-li">Product-minded hackathon to learn how great products are built skills</li>
-                  <li class="product-li">Get a chance to apply your skills to take your ideas and prototype new products </li>
-                  <li class="product-li">Gain valuable experience to prepare for interviews and future PM placements</li>
-                </ul>
-
-               </div> <!-- END service-box -->
-      </div> <!-- END ONETHIRD COLUMN -->
-
-      <div class="one-third column what-we-do">
-              <!-- START service-box -->
-        <div class="service-box">
-                 <!-- START ICON -->
-                   <div>
-                      <h3 class="innovation">Innovation Trek</h3><!-- END service-box TITLE -->
-                      <i class="service-icon icon-rocket"></i>
-                   </div>
-                 <!-- END ICON -->
-
-                <!-- START service-box DESCIPTION -->
-                <div class="service-description">
-                   <p>Exclusive trek program that brings a select group of UWaterloo students to visit and interact with leadership from world leading technology companies</p><!-- END service-box DESCRIPTION -->
-                </div>
-                   <h6>Why</h6>
-                   <ul class="styled-list">
-                    <li class="product-li">Interact with management and thought leaders from top technology companies</li>
-                    <li class="product-li">Exclusive networking opportunity to learn from people in industry</li>
-                    <li class="product-li">Join our fellows and alumni network for career opportunities and advice</li>
-                   </ul>
-                <!-- START service-box DESCIPTION -->
-               </div> <!-- END service-box -->
-      </div> <!-- END ONETHIRD COLUMN -->
-
-      <div class="one-third column what-we-do">
-              <!-- START service-box -->
-        <div class="service-box">
-                 <!-- START ICON -->
-                   <div>
-                      <h3 class="innovation">Hacker House</h3><!-- END service-box TITLE -->
-                      <i class="service-icon icon-home"></i>
-                   </div>
-                 <!-- END ICON -->
-
-                <!-- START service-box DESCIPTION -->
-                <div class="service-description">
-                  <p>Starting Fall 2015 in Seattle, Washington!</p><!-- END service-box DESCRIPTION -->
-                </div>
-                <!-- START service-box DESCIPTION -->
-<!-- 
-                <h6>Apply Now!</h6> -->
-                <ul class="styled-list">
-                  <li>Receive personal mentorship from top UW interns and alum, a space to live & work in style, and access to exclusive house hack days and talks! </li>
-                  <li>Fully furnished with luxury amenities, convenient commuting options to Bellevue or Redmond</li>
-                  <li>Valuable community and networking experience, cheaper than most corporate housing options (by $200+/month)</li>
-               <!--    <h6 class="apply-vertical"><a href="https://docs.google.com/forms/d/11-Ks5O6FfyBBXJlxgxJZwkLOuBDgohDSDD7TpT22Zt8/viewform" class="apply" target="_blank">*Apply Here*</a></h6> -->
-
-                </ul>
-
-               </div> <!-- END service-box -->
-      </div> <!-- END ONETHIRD COLUMN -->
-
-
-
-     </div>  <!-- END ROW -->
-        </div> <!-- END CONTAINER -->
-        </div><!-- End ID -->
-
-  </div>
-  <!-- <div class="container clearfix">
-
-      <div class="sixteen columns">
-
-            <h3>Are you ready to start a conversation?</h3>  <a href="#contact" class="button scroll-to">Get in touch</a>
-       </div><!-- END SIXTEEN COLUMNS -->
-         </div><!-- END CONTAINER -->
-
-      <div class="container">
-      <div class="row">
-         <div class="sixteen columns">
-          <div class="title">
-           <h1 class="impact">Our Impact</h1>
-           </div>
-         </div>
-
-
-         <div class="four columns">
-           <div class="milestone-counter" data-perc="600">
-             <span class="milestone-count highlight"></span>
-             <h6 class="milestone-details">Students reached</h6>
-           </div>
-         </div>
-
-         <div class="four columns">
-           <div class="milestone-counter" data-perc="25">
-             <span class="milestone-count highlight"></span>
-             <h6 class="milestone-details">Past events</h6>
-           </div>
-         </div>
-
-         <div class="four columns">
-           <div class="milestone-counter" data-perc="10">
-             <span class="milestone-count highlight"></span>
-             <h6 class="milestone-details">Our Speakers</h6>
-           </div>
-         </div>
-
-         <div class="four columns">
-           <div class="milestone-counter" data-perc="30">
-             <span class="milestone-count highlight"></span>
-             <h6 class="milestone-details">Trek Fellows</h6>
-           </div>
-         </div>
-      </div>
-    </div>
-  </div>
-    <div class="sixteen columns subscribe bg-accent2">
-    <h3 class="list">Join our mailing list to stay updated for our next events</h3><a href="http://eepurl.com/bnEPV1" class="button scroll-to" target="_blank">Subscribe</a>
-  </div>
-
-  <!-- END
-   SERVICES SECTION -->
-  <div id="company-many" class="container greyclearfix company">
-
-    <div class="sixteen columns">
-        <div class="title company">
-            <h1 class="companies">Companies We've Worked With</h1>
-            <hr>
-                <div class="client-logos">
-                  <a href="http://quora.com/" title="Featured Clients" class="clients" target="_blank"><img src="images/clients/Quora.png" alt="Clients"></a>
-                  <a href="https://squareup.com/ca" title="Featured Clients" class="clients" target="_blank"><img src="images/clients/Square.png" alt="Clients"></a>
-                  <a href="http://www.cybernorthventures.com/" title="Featured Clients" class="clients" target="_blank"><img src="images/clients/Cyber.png" alt="Clients"></a>
-                  <a href="http://www.vidyard.com/" title="Featured Clients" class="clients vidyard" target="_blank"><img width="300" src="images/clients/Vidyard.png" alt="Clients"></a>
-                  <a href="https://www.google.ca/?gws_rd=ssl" title="Featured Clients" class="clients" target="_blank"><img src="images/clients/google new 2.png" alt="Clients"></a>
-                  <a href="http://ca.blackberry.com/" title="Featured Clients" class="clients" target="_blank"><img src="images/clients/Blackberry.png" height="300" alt="Clients"></a>
-                  <a href="https://www.mozilla.org/en-US/" title="Featured Clients" class="clients" target="_blank"><img src="images/clients/mozilla.png" alt="Clients"></a>
-                  <!--<a href="#" title="Featured Clients" class="clients"><img src="images/clients/client5.png" alt="Clients"></a> -->
-                </div><!-- END CLIENTS LIST -->
-            <hr class="bottom-company">
-
-            <!--<p>Sed ligula magna, porta in scelerisque ac, gravida fringilla sapien. Sed tempus urna in sem ultricies vehicula vulputate purus ultrices. Aenean orci libero, scelerisque non feugiat gravida, dignissim ut tortor. Phasellus et nulla eros. Morbi suscipit interdum molestie. Aenean fringilla dui magna.</p> -->
-          </div><!-- End title -->
-      </div><!-- END SIXTEEN COLUMNS -->
-   </div>
-
-   <div class="container greyclearfix">
-      <div class="sixteen columns">
-        <div class="title">
-            <h1 class="companies">Our Sponsors</h1>
-              <hr>
-                <div class="client-logos sponsors">
-                  <!--<a href="http://www.yelp.com/" title="Featured Clients" class="clients" target="_blank"><img src="images\clients\yelp-logo.jpg" alt="Clients"></a>-->
-                   <a href="https://www.facebook.com/groups/698509543493440/" title="Featured Clients" class="clients" target="_blank"><img src="images/clients/waterlux.png" alt="Clients"></a>
-                    <a href="http://reboot.build/" title="Featured Clients" class="clients" target="_blank"><img src="images/clients/reboot.png" alt="Clients"></a>
-                  <a href="https://www.zoho.com/mail/" title="Featured Clients" class="clients" target="_blank"><img src="images/clients/zoho.png" alt="Clients"></a>
-                  <a href="https://helpmonks.com/" title="Featured Clients" class="clients" target="_blank"><img src="images/clients/helpmonks.png" alt="Clients"></a>
-                  <!--<a href="#" title="Featured Clients" class="clients" target="_blank"><img src="#" alt="Clients"></a>
-                  <a href="#" title="Featured Clients" class="clients" target="_blank"><img src="#" alt="Clients"></a>
-                  <a href="#" title="Featured Clients" class="clients" target="_blank"><img src="#" alt="Clients"></a>
-                  <a href="#" title="Featured Clients" class="clients" target="_blank"><img src="#" width="150" alt="Clients"></a> -->
-                  <!--<a href="#" title="Featured Clients" class="clients"><img src="images/clients/client5.png" alt="Clients"></a> -->
-                </div><!-- END CLIENTS LIST -->
-              <hr class="bottom-company">
-            <!--<p>Sed ligula magna, porta in scelerisque ac, gravida fringilla sapien. Sed tempus urna in sem ultricies vehicula vulputate purus ultrices. Aenean orci libero, scelerisque non feugiat gravida, dignissim ut tortor. Phasellus et nulla eros. Morbi suscipit interdum molestie. Aenean fringilla dui magna.</p> -->
-          </div><!-- End title -->
-      </div><!-- END SIXTEEN COLUMNS -->
-   </div>
-
-   <div class="container greyclearfix">
-    <div class="sixteen columns">
-        <div class="title">
-            <h1 class="companies">Our Partners</h1>
-              <hr>
-                <div class="client-logos sponsors">
-                  <a href="http://www.uwesociety.com/" title="Featured Clients" class="clients" target="_blank"><img height="300" src="images/clients/uwsociety.png" alt="Clients"></a>
-                  <a href="https://www.facebook.com/startuplaurier?fref=ts" title="Featured Clients" class="clients" target="_blank"><img height="200" src="images/clients/startup.png" alt="Clients"></a>
-                  <!--<a href="#" title="Featured Clients" class="clients" target="_blank"><img src="startup.png" alt="Clients"></a>
-                  <a href="#" title="Featured Clients" class="clients" target="_blank"><img src="#" alt="Clients"></a>
-                  <a href="#" title="Featured Clients" class="clients" target="_blank"><img src="#" width="150" alt="Clients"></a> -->
-                  <!--<a href="#" title="Featured Clients" class="clients"><img src="images/clients/client5.png" alt="Clients"></a> -->
-                </div><!-- End CLIENTS LIST -->
-            <!--<p>Sed ligula magna, porta in scelerisque ac, gravida fringilla sapien. Sed tempus urna in sem ultricies vehicula vulputate purus ultrices. Aenean orci libero, scelerisque non feugiat gravida, dignissim ut tortor. Phasellus et nulla eros. Morbi suscipit interdum molestie. Aenean fringilla dui magna.</p> -->
-            <hr class="bottom-partner">
-          </div><!-- End title -->
-      </div><!-- END SIXTEEN COLUMNS -->
-   </div>
-
-      <!-- START PARALLAX SECTION -->
-  <div id="parallax3" class="parallax">
-        <div class="bg-accent parallax-bg"></div><!-- END PARALLAX BACKGROUND -->
-        <div class="overlay"></div><!-- END PATTERN OVERLAY -->
-        <div class="container clearfix">
-                <div class="parallax-content">
-                <p class="testimonial-icon"><i class="icon-quote-left"></i></p><h3 class="title"><span>Our Testimonials</span></h3>
-                <div class="testimonial-slider">
-                      <div class="flexslider">
-                      <ul class="slides styled-list">
-
-                      <li class="testimonial-slide"><p class="client-testimonial">"I was able to ask burning questions I had about the company directly to senior management, to the point that I am now considering working for them. It was great to be able to network with the people there, and also meet other high end students."</p><div class="client-info">Anonymous Student @ BlackBerry Trek</div></li>
-
-                      <li class="testimonial-slide"><p class="client-testimonial">"Loved the exclusive opportunity to hear directly from organisation leaders and influencers, really helped give valuable perspective on both career direction and the industry in general. Truly one of the highlights of university so far!"</p><div class="client-info">2A Software Engineering Student @ BlackBerry Trek</div></li>
-
-                      <li class="testimonial-slide"><p class="client-testimonial">"I loved the way the Q&A was structured and it was absolutely riveting to hear about your thoughts on the future of tech."</p><div class="client-info">1B Software Engineering Student @ BlackBerry Trek</div></li>
-
-                      </ul>
-                      </div>
-          </div>
-      </div><!-- END PARALLAX CONTENT -->
-    </div><!-- END CONTAINER -->
-  </div>
-
+<div ng-view>
           <!-- Begin MailChimp Signup Form -->
   <!--     <h2>Subscribe to our mailing list</h2>
       <form>
@@ -520,190 +127,6 @@
 
 
       <!--End mc_embed_signup-->
-
-   <!-- START PORTFOLIO SECTION -->
-  <div id="gallery" class="page">
-
-    <div class="container">
-           <div class="row">
-      <div class="sixteen columns">
-              <!-- START TITLE -->
-        <div class="title">
-          <h1>Gallery</h1>
-                  <!--<div class="subtitle">-->
-                     <!--  <p>Hire us if you like what we do because we helps Agencies to link <span class="highlight">Business</span> processes and <span class="highlight">People.</span></p> -->
-                  <!--</div>--><!-- END SUBTITLE -->
-                </div><!-- END TITLE -->
-      </div><!-- END SIXTEEN COLUMNS -->
-           </div><!-- END ROW -->
-          </div><!-- END CONTAINER -->
-
-           <!-- START AJAX SECTION -->
-            <div id="ajax-section">
-             <div class="container clearfix">
-
-
-              <!-- START PROJECT NAVIGATION -->
-              <div id="project-navigation">
-                  <ul>
-                      <li id="nextProject"><a href="#"></a></li>
-                      <li id="prevProject"><a href="#" class="disabled"></a></li>
-                   </ul>
-               </div>
-               <!-- END PROJECT NAVIGATION -->
-
-               <!-- START PROJECT CLOSE BUTTON -->
-               <div id="closeProject">
-                    <a href="#loader"><i class="icon-remove"></i></a>
-
-               </div>
-               <!-- START PROJECT CLOSE BUTTON -->
-
-               <!-- START PROJECT LOADER SECTION -->
-               <div id="loader"></div>
-               <!-- END PROJECT CLOSE BUTTON -->
-
-               <!-- START AJAX CONTENT -->
-               <div id="ajax-content-outer">
-                    <div id="ajax-content-inner"></div>
-               </div>
-               <!-- END AJAX CONTENT -->
-
-        </div><!-- END CONTAINER -->
-
-    </div>
-           <!-- END AJAX SECTION -->
-
-         <div class="clear"></div>
-
-
-
-   <div class="container clearfix">
-
-   <!-- START PORTFOLIO FILTERING -->
-   <div  id="filters" class="sixteen columns" >
-
-      <ul class="clearfix">
-       <li><a href="#" data-filter="*" class="active"><h3>All</h3></a></li>
-        <li><a href="#" data-filter=".talk"><h3>Tech Talks</h3></a></li>
-        <li><a href="#" data-filter=".trek"><h3>Innovation Trek</h3></a></li>
-        <li><a href="#" data-filter=".sessions"><h3>Information Sessions</h3></a></li>
-
-<!--         <li><a href="#" data-filter=".videography"><h3>Videography</h3></a></li>
-        <li><a href="#" data-filter=".web"><h3>Web</h3></a></li> -->
-      </ul>
-    </div><!-- END PORTFOLIO FILTERING -->
-   </div><!-- END CONTAINER -->
-
-
-   <!-- START PORTFOLIO WRAP -->
-   <div id="portfolio-wrap">
-    <!-- START PORTFOLIO ITEM -->
-      <!-- <div ng-repeat="portfolio in portfolios">
-        <div class="portfolio-item one-third column {{portfolio.organize}}" ng-class="portfoliosClass($index);"> -->
-      <div ng-repeat="portfolio in portfolios" class="portfolio-item one-third column" ng-class="portfoliosClass($index);">
-          <div class="portfolio">
-            <a href = "#!{{portfolio.link}}" class="portfolio-image" ><!-- <a  href = "#!projects/project-2.html"> -->
-              <img ng-src="{{portfolio.imageURL}}" alt="Portfolio {{$index+1}}">
-                <div class="portfolio-overlay">
-                    <div class="thumb-info">
-                      <h3>{{portfolio.header}}</h3><!-- OVERLAY TITLE -->
-                      <p class="portfolio-tags">{{portfolio.subheader}}</p><!-- END PORTFOLIO TAGS -->
-                      <!--<i class="icon-picture"></i><!--OVERLAY ICON -->
-                    </div>
-                </div><!-- END PORTFOLIO OVERLAY -->
-            </a>
-          </div>
-        </div>
-        </div>
-    <!-- END PORTFOLIO ITEM -->
-    </div><!-- End portfolio Section -->
-
-  <!-- START TEAM SECTION -->
-  <div id="team" class="page">
-
-    <!--<div class="container">
-           <div class="row">
-      <div class="sixteen columns">-->
-              <!-- START TITLE -->
-
-                  <!--<div class="subtitle">
-                      <!--<p>Group of driven & outstanding uWaterloo students and Alumuni with <span class="highlight">ideas</span> and <span class="highlight">passion</span> for product leadership.</p>
-                  </div><!-- END SUBTITLE -->
-
-      <!--</div> END SIXTEEN COLUMNS
-           </div><!-- END ROW
-          </div><!-- END CONTAINER -->
-
-
-       <div class="fullwidth grey">
-          <div class="title team">
-            <h1>Our Team</h1>
-            </div>
-        <div class="fancy-header2">
-           <!--<h4>Who are we anyway?</h4>
-           <h2 class="highlight">Our Team</h2>-->
-        </div>
-
-          <div class="container">
-             <div class="row">
-
-            <div class="sixteen columns">
-            <div>
-              <div ng-repeat="member in members" class="team-member">
-                <div class="team-thumb img-wrp">
-                    <img class="pvcteam" ng-src="{{member.imageURL}}" alt="team">
-                     <div class="team-overlay">
-                        <div class="img-overlay"></div>
-                          <div class="overlay-content">
-                            <h4>{{member.role}}</h4>
-                            <p><a data-toggle="modal" ng-href="#team-{{$index+1}}" class="modal-popup-link view-profile">View Profile</a></p>
-                         </div>
-                    </div>
-                   </div>
-                <div class="team-desc">
-                  <h4>{{member.name}}</h4>
-                </div>
-                 <div id="team-{{$index+1}}" class="modal hide fade.in animated fadeIn">
-                    <div class="member-bio">
-                     <div class="container">
-                     <a href="#" class="close" data-dismiss="modal">×</a>
-                      <div class="member-role">
-                        <h1>{{member.name}}</h1>
-                        <h4 class="highlight">{{member.role}}</h4>
-                      </div>
-                      <div class="row">
-                        <div class="seven columns">
-                          <img class="pvcteam" ng-src="{{member.imageURL}}" alt="team">
-                          <div class="member-details">
-                               <div class="social-icons">
-                                  <div class="social-icon social-email"><a href="mailto:{{member.email}}" data-original-title="Email">Email</a></div>
-                                  <div class="social-icon social-linkedin"><a href="{{member.LinkedIn}}" target="_blank" data-original-title="LinkedIn">LinkedIn</a></div>
-                               </div>
-                          </div>
-                        </div>
-                        <div class="eight columns member-description">
-                        <p class="lead">{{member.description}}</p>
-                        <h3 class="program">{{member.program}}</h3>
-                        <h3 class="highlight job">{{member.job}}</h3>
-                       </div>
-                      </div>
-                     </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-           </div><!-- END SIXTEEN COULMNS -->
-          </div> <!-- END ROW -->
-         </div><!-- END CONTAINER -->
-       </div>
-
-    </div>
-    <!-- END TEAM SECTION -->
-
-
   <!-- START PARALLAX SECTION -->
     
   <!-- END PARALLAX SECTION -->
@@ -718,7 +141,7 @@
       </div>-->
 
 
-
+</div>
       <!-- START COPYRIGHT SECTION -->
       <div class="copyright" id="contactFooter">
      <div class="container clearfix">
@@ -742,13 +165,9 @@
      </div>
      <!-- END COPYRIGHT SECTION -->
     <!-- END CONTACT SECTION -->
-  </div><!-- END PAGE WRAP --><div id="back-to-top"><a href="#">Back to Top</a></div>
-
-  <!-- Angular -->
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
-  <script src="js/app.js"></script>
-
-  <!-- JARVIS THEME SCRIPTS -->
+<!-- END PAGE WRAP --><div id="back-to-top"><a href="#">Back to Top</a></div>
+</div>
+<!-- JARVIS THEME SCRIPTS -->
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
   <!--<script type="text/javascript" src="js/jquery.tweet.js"></script>-->
   <script type="text/javascript" src="js/jquery.form.js"></script>
@@ -759,7 +178,6 @@
   <script type="text/javascript" src="js/jquery.slabtext.min.js"></script>
   <script type="text/javascript" src="js/jquery.fittext.js"></script>
   <script type="text/javascript" src="js/jquery.easing.min.js"></script>
-  <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
   <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
   <script type="text/javascript" src="js/jquery.sticky.js"></script>
   <script type="text/javascript" src="js/selectnav.min.js"></script>

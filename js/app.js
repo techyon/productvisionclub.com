@@ -1,7 +1,55 @@
-  angular.module('myApp', [])
-  angular.module('myApp')
-  //Question 1
-  .controller('MemberCtrl',['$scope',function($scope){
+   var PVC = angular.module('PVC', ['ngRoute']);
+
+    // configure our routes
+    // PVC.config(function($routeProvider) {
+    //   console.log("route");
+    //     $routeProvider
+    //         // route for the home page
+    //         .when('/', {
+    //             templateUrl : 'index.html',
+    //             controller  : 'MemberCtrl'
+    //         })
+    //         .when('/index.html', {
+    //             templateUrl : 'index.html',
+    //             controller  : 'MemberCtrl'
+    //         })
+    //         // route for the about page
+    //         .when('/gallery', {
+    //             templateUrl : 'gallery.html',
+    //             controller  : 'aboutController'
+    //         });
+    // });
+
+    PVC.config(['$routeProvider',
+     function($routeProvider) {
+        $routeProvider
+           .when('/', {
+                templateUrl : 'main.html',
+                controller  : 'MemberCtrl'
+            })
+            .when('/gallery', {
+                templateUrl : 'gallery.html',
+                controller  : 'MemberCtrl'
+            })
+            .when('/team', {
+                templateUrl : 'team.html',
+                controller  : 'MemberCtrl'
+            })
+            .when('/about', {
+                templateUrl : 'main.html',
+                controller  : 'MemberCtrl'
+            })
+            .when('/home', {
+                templateUrl : 'main.html',
+                controller  : 'MemberCtrl'
+            })
+            .otherwise({
+              template: "main.html"
+            });
+     }]);
+  
+  PVC.controller('MemberCtrl',function($scope){
+    console.log("WELCOME");
     $scope.members = [
     {name:'Sung Cheul Hong', imageURL:"images/team/sung.jpg",role:"Founder",job:"Groupon: Associate Product Manager",program:"System Design Engineering 2015", email:"sc3hong@uwaterloo.ca", LinkedIn:"https://www.linkedin.com/in/sungcheulhong", description:"Sung has done his first two co-ops at startups for developer positions. He then moved into business roles are BlackBerry and Manulife Financial. For his last two co-op terms, he has worked as an associate product manager where he is working full-time now"},
     
@@ -53,4 +101,8 @@
       if($scope.portfolios[index].subheader=="Tech Talks") return "talk";
       if($scope.portfolios[index].subheader=="Innovation Trek") return "trek";
     }
-  }]);
+  });
+
+  PVC.controller('Test',function($scope){
+    
+  });

@@ -1,0 +1,83 @@
+<!-- START TEAM SECTION -->
+  <div id="team" class="page">
+
+    <!--<div class="container">
+           <div class="row">
+      <div class="sixteen columns">-->
+              <!-- START TITLE -->
+
+                  <!--<div class="subtitle">
+                      <!--<p>Group of driven & outstanding uWaterloo students and Alumuni with <span class="highlight">ideas</span> and <span class="highlight">passion</span> for product leadership.</p>
+                  </div><!-- END SUBTITLE -->
+
+      <!--</div> END SIXTEEN COLUMNS
+           </div><!-- END ROW
+          </div><!-- END CONTAINER -->
+
+
+       <div class="fullwidth grey">
+          <div class="title team">
+            <h1>Our Team</h1>
+            </div>
+        <div class="fancy-header2">
+           <!--<h4>Who are we anyway?</h4>
+           <h2 class="highlight">Our Team</h2>-->
+        </div>
+
+          <div class="container">
+             <div class="row">
+
+            <div class="sixteen columns">
+            <div>
+              <div ng-repeat="member in members" class="team-member">
+                <div class="team-thumb img-wrp">
+                    <img class="pvcteam" ng-src="{{member.imageURL}}" alt="team">
+                     <div class="team-overlay">
+                        <div class="img-overlay"></div>
+                          <div class="overlay-content">
+                            <h4>{{member.role}}</h4>
+                            <p><a data-toggle="modal" ng-href="#team-{{$index+1}}" class="modal-popup-link view-profile">View Profile</a></p>
+                         </div>
+                    </div>
+                   </div>
+                <div class="team-desc">
+                  <h4>{{member.name}}</h4>
+                </div>
+                 <div id="team-{{$index+1}}" class="modal hide fade.in animated fadeIn">
+                    <div class="member-bio">
+                     <div class="container">
+                     <a href="#" class="close" data-dismiss="modal">×</a>
+                      <div class="member-role">
+                        <h1>{{member.name}}</h1>
+                        <h4 class="highlight">{{member.role}}</h4>
+                      </div>
+                      <div class="row">
+                        <div class="seven columns">
+                          <img class="pvcteam" ng-src="{{member.imageURL}}" alt="team">
+                          <div class="member-details">
+                               <div class="social-icons">
+                                  <div class="social-icon social-email"><a href="mailto:{{member.email}}" data-original-title="Email">Email</a></div>
+                                  <div class="social-icon social-linkedin"><a href="{{member.LinkedIn}}" target="_blank" data-original-title="LinkedIn">LinkedIn</a></div>
+                               </div>
+                          </div>
+                        </div>
+                        <div class="eight columns member-description">
+                        <p class="lead">{{member.description}}</p>
+                        <h3 class="program">{{member.program}}</h3>
+                        <h3 class="highlight job">{{member.job}}</h3>
+                       </div>
+                      </div>
+                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+           </div><!-- END SIXTEEN COULMNS -->
+          </div> <!-- END ROW -->
+         </div><!-- END CONTAINER -->
+       </div>
+
+    </div>
+    <!-- END TEAM SECTION -->

@@ -678,21 +678,21 @@ $(document).ready(function()
 /*----------------------------------------------------*/
 // MENU SMOOTH SCROLLING
 /*----------------------------------------------------*/  
-    $(".main-menu a, .logo a, .home-logo-text a, .home-logo a, .scroll-to").bind('click',function(event){
+  //   $(".main-menu a, .logo a, .home-logo-text a, .home-logo a, .scroll-to").bind('click',function(event){
 		
-		$(".main-menu a").removeClass('active');
-		$(this).addClass('active');			
-		var headerH = $('.navigation').outerHeight();
+		// $(".main-menu a").removeClass('active');
+		// $(this).addClass('active');			
+		// var headerH = $('.navigation').outerHeight();
 	
-        $("html, body").animate({
-            scrollTop: $($(this).attr("href")).offset().top - headerH + 'px'
-        }, {
-            duration: 1200,
-            easing: "easeInOutExpo"
-        });
+  //       $("html, body").animate({
+  //           //scrollTop: $($(this).attr("href")).offset().top - headerH + 'px'
+  //       }, {
+  //           duration: 1200,
+  //           easing: "easeInOutExpo"
+  //       });
 
-		event.preventDefault();
-    });	
+		// event.preventDefault();
+  //   });	
 	
 	  
 /*----------------------------------------------------*/
@@ -708,10 +708,10 @@ $(document).ready(function()
 		
 		if (testMobile == null)
 		{
-			$('.parallax .bg1').parallax("50%", 0.6);
-			$('.parallax .bg2').parallax("50%", 0.6);
-			$('.parallax .bg3').parallax("50%", 0.6);	
-			$('.parallax .bg4').parallax("50%", 0.6);				
+			// $('.parallax .bg1').parallax("50%", 0.6);
+			// $('.parallax .bg2').parallax("50%", 0.6);
+			// $('.parallax .bg3').parallax("50%", 0.6);	
+			// $('.parallax .bg4').parallax("50%", 0.6);				
 		} 
 	}
 
@@ -763,10 +763,10 @@ $(window).load(function(){
 	$('#load').fadeOut().remove();
 	$(window).trigger( 'hashchange' );
 	$(window).trigger( 'resize' );
-  $('[data-spy="scroll"]').each(function () {
-    var $spy = $(this).scrollspy('refresh');
+  // $('[data-spy="scroll"]').each(function () {
+  //   var $spy = $(this).scrollspy('refresh');
 	
-  }); 	
+  // }); 	
  
 /* ------------------------------------------------------------------------ */
 /* FLEX SLIDER */
