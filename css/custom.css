@@ -333,3 +333,10 @@ a.apply:hover {
 .bg-accent2{
 	background-color: #FFDCDC;
 }
+
+.pvc-header{
+	box-shadow: none;
+    color: #F15A5C;
+    background: none;
+    border: none;
+}
