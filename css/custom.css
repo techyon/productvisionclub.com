@@ -188,9 +188,14 @@ a.clients {
 .sixteen.columns.subscribe {
 	text-align: center;
 	height: 170px;
-	background-color: #711F1E;
+	background-color: black;
 	margin-top: 80px;
 }
+
+.sixteen.columns.subscribe h3 {
+	color: black;
+}
+
 
 .list {
 	padding-top: 35px;
