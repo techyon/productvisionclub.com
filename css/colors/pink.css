@@ -113,3 +113,10 @@ blockquote p,
 .no-text-transform{
 	text-transform: none;
 }
+
+.pvc-header{
+	box-shadow: none;
+    color: #F15A5C;
+    background: none;
+    border: none;
+}

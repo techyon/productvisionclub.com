@@ -188,7 +188,6 @@ a.clients {
 .sixteen.columns.subscribe {
 	text-align: center;
 	height: 170px;
-	background-color: black;
 	margin-top: 80px;
 }
 
@@ -332,11 +331,4 @@ a.apply:hover {
 }
 .bg-accent2{
 	background-color: #FFDCDC;
-}
-
-.pvc-header{
-	box-shadow: none;
-    color: #F15A5C;
-    background: none;
-    border: none;
 }
