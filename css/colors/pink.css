@@ -114,7 +114,7 @@ blockquote p,
 	text-transform: none;
 }
 
-h1 .pvc-header{
+.pvc-header .pvc .pvch{
 	box-shadow: none;
     color: #F15A5C;
     background: none;
