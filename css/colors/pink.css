@@ -46,7 +46,7 @@ nav.colored, nav.light.colored,
 
 .title h1,
 .service-box .service-icon {
-	box-shadow:0px 0px 0px 3px #F15A5C;
+	/*box-shadow:0px 0px 0px 3px #F15A5C;*/
 }
 
 .tab a.selected {
@@ -114,7 +114,7 @@ blockquote p,
 	text-transform: none;
 }
 
-.pvc-header .pvc .pvch{
+.pvc-header{
 	box-shadow: none;
     color: #F15A5C;
     background: none;
